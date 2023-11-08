@@ -5,6 +5,11 @@ export default {
   i18nextServer: {
     backend: {
       loadPath: './public/locales/{{lng}}/{{ns}}.json',
-    },
+      requestOptions: {
+        cache: {
+          mode: "no-store"
+        }
+      }
+    }     
   }
 };

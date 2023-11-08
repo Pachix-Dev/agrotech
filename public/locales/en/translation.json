@@ -4,9 +4,35 @@
         "description":"Our exhibition is designed for the agribusiness sector comprising the entire value chain, from production, industrialization and marketing of agricultural products, to increase its specialization and competitiveness by moving towards Agribusiness 4.0 through the adoption of technologies such as Artificial Intelligence, Big Data, Blockchain, Automation, Drones, Logistics 4.0, and many more."
     },
     "menu":{
-        "home":"Home",
-        "about":"About",
-        "contact":"Contact"
+        "aboutUS":"ABOUT US",
+        "option2": {
+            "title":"EXHIBITORS",
+            "subMenu": {
+                "option1":"Contact",
+                "option2":"Why exhibit",
+                "option3":"Exhibitor Profile",
+                "option4":"Exhibitor Services",
+                "option5":"Factsheet 2024",
+                "option6":"Floor plan 2024",
+                "option7":"Contract 2024",
+                "option8":"Rates"                
+            }
+        },
+        "option3":{
+            "title":"VISITORS",
+            "subMenu": {
+                "option1":"Why assist",
+                "option2":"Audience type"                
+            }
+        },
+        "option4":{
+            "title":"PAST EVENTS",
+            "subMenu":{
+                "option1":"Directory 2023",
+                "option2":"Aftershow report 2023"
+            }
+
+        }        
     },
     "home":{
         "title" : "The B2B exhibition specialized in Industry 4.0 for agriculture.",
