@@ -1,0 +1,15 @@
+{
+    "site":{
+        "title":"Agrotech México",
+        "description":"Nuestra exhibición está diseñada para que el sector agroindustrial que comprende toda la cadena de valor, desde la producción, la industrialización y la comercialización de sector agroalimentario, incremente su especialización y competitividad al transitar hacia la Agroindustria 4.0 mediante la adopción de tecnologías como la Inteligencia Artificial, Big Data, Blockchain, Automatización, Drones, Logística 4.0, y muchas más."
+    },
+    "menu":{
+        "home":"Inicio",
+        "about":"Acerca de",
+        "contact":"Contacto"
+    },
+    "home":{
+        "title" : "La exhibición B2B epecializada en Industria 4.0 para la agricultura",
+        "event_date" : "15 al 17 de mayo 2024 | Expo Guadalajara Jalisco"
+    }
+}
