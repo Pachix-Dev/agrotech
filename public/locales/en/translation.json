@@ -36,6 +36,10 @@
     },
     "home":{
         "title" : "The B2B exhibition specialized in Industry 4.0 for agriculture.",
-        "event_date" : "May 15 to 17 2024 | Expo Guadalajara Jalisco"
+        "event_date" : "May 15 to 17 2024 | Expo Guadalajara Jalisco",
+        "description": "Para Italian German Exhibition Company es un placer invitarlo a participar en AgroTech 2024, la primera exhibición B2B especializada en la Industria 4.0 dedicada a la agricultura.<br /><br />Nuestra exhibición está diseñada para que el sector agroindustrial que comprende toda la cadena de valor, desde la producción, la industrialización y la comercialización de productos agroalimentarios, incremente su especialización y competitividad al transitar hacia la Agroindustria 4.0 mediante la adopción de tecnologías como la Inteligencia Artificial, Big Data, Blockchain, Automatización, Drones, Logística 4.0, y muchas más."
+    },
+    "about":{
+        "title":"ABOUT US"
     }
 }
