@@ -17,7 +17,7 @@ import { Trans, HeadHrefLangs } from "astro-i18next/components";
 		<meta charset="UTF-8" />
 		<meta name="description" content="Astro description" />
 		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" type="image/png" href="/favicon.png" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{t("site.title")}</title>
 		<meta name="description" content={t("site.description")} />
@@ -32,6 +32,19 @@ import { Trans, HeadHrefLangs } from "astro-i18next/components";
 <style is:global>	
 	html {
 		font-family: system-ui, sans-serif;		
-		background-size: 224px;		
+		background-size: 224px;				
+	}
+	::-webkit-scrollbar {
+		height: 5px;
+		width: 5px;
+		background-color: #F5F5F5;
+	}
+
+	::-webkit-scrollbar-thumb {
+		background-color: black;
+	}
+
+	::-webkit-scrollbar-track {
+		-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 	}
 </style>
