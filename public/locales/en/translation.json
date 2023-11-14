@@ -37,7 +37,20 @@
     "home":{
         "title" : "The B2B exhibition specialized in Industry 4.0 for agriculture.",
         "event_date" : "May 15 to 17 2024 | Expo Guadalajara Jalisco",
-        "description": "Para <strong>Italian German Exhibition Company</strong> es un placer invitarlo a participar en AgroTech 2024, la primera exhibición B2B especializada en la Industria 4.0 dedicada a la agricultura.<br /><br />Nuestra exhibición está diseñada para que el sector agroindustrial que comprende toda la cadena de valor, desde la producción, la industrialización y la comercialización de productos agroalimentarios, incremente su especialización y competitividad al transitar hacia la Agroindustria 4.0 mediante la adopción de tecnologías como la Inteligencia Artificial, Big Data, Blockchain, Automatización, Drones, Logística 4.0, y muchas más."
+        "description": "Para <strong>Italian German Exhibition Company</strong> es un placer invitarlo a participar en AgroTech 2024, la primera exhibición B2B especializada en la Industria 4.0 dedicada a la agricultura.<br /><br />Nuestra exhibición está diseñada para que el sector agroindustrial que comprende toda la cadena de valor, desde la producción, la industrialización y la comercialización de productos agroalimentarios, incremente su especialización y competitividad al transitar hacia la Agroindustria 4.0 mediante la adopción de tecnologías como la Inteligencia Artificial, Big Data, Blockchain, Automatización, Drones, Logística 4.0, y muchas más.",
+        "title_2": "Product Categories",
+        "category_1": "Equipment & Technologies",
+        "category_1_description": "for the agriculture and fishery sectors Equipment manufacturers Software and intelligent systems Automated tractors and drones Digitized farming systems Tillage equipment and seeders Forage and root crop harvesters Specialty crops, sprinklers and irrigation systems",
+        "category_2": "Distribution & Logistics",
+        "category_2_description": "Packaging and containers Logistics 4.0 Distributors Wholesale and retail distribution networks",
+        "category_3": "Agricultural supplies",
+        "category_3_description": "Seeds, fertilizers, pesticides, fuels and lubricants",
+        "category_4": "Wholesale products",
+        "category_4_description": "Final products Marketing of processed products",
+        "category_5": "Transformation and processing",
+        "category_5_description": "Tools for the supply, processing and distribution of agricultural commodities Crop storage and processing solutions",
+        "category_6": "Specialty Services",
+        "category_6_description": "Financial support International trade services Security equipment Cargo insurance Consulting Certifications Tagged Governmental and non-governmental organizations"
     },
     "about":{
         "title":"ABOUT US"

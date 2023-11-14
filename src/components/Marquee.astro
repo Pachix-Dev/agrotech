@@ -1,0 +1,120 @@
+---
+interface Props {
+  partners: Array<{
+    link: string;
+    src: string;
+    alt: string;
+    width: number;
+  }>;
+  title: string;
+}
+
+const { partners, title } = Astro.props as Props;
+---
+
+<section class="mt-10 pt-10 enable-animation">
+  <p class="text-center text-2xl font-bold">{title}</p>
+  <div class="marquee marquee--hover-pause">
+    <ul class="marquee__content">
+      {
+        partners?.map((partner) => (
+          <li>
+            <a href={partner.link} target="_blank">
+              <img src={partner.src} alt={partner.alt} width={partner.width} />
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+    <ul aria-hidden="true" class="marquee__content">
+      {
+        partners?.map((partner) => (
+          <li>
+            <a href={partner.link} target="_blank">
+              <img src={partner.src} alt={partner.alt} width={partner.width} />
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</section>
+<style>
+  /* Marquee styles */
+  .marquee {
+    --gap: 3rem;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    user-select: none;
+    gap: var(--gap);
+  }
+
+  .marquee::before,
+  .marquee::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 20%;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), #fff);
+    pointer-events: none;
+  }
+
+  .marquee::after {
+    right: 0;
+  }
+
+  .marquee::before {
+    left: 0;
+  }
+
+  .marquee__content {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--gap);
+    min-width: 100%;
+  }
+  .marquee__content img {
+    transition: transform 0.3s ease-in-out;
+  }
+  .marquee__content img:hover {
+    transform: scale(1.1);
+  }
+  @keyframes scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(calc(-100% - var(--gap)));
+    }
+  }
+
+  /* Pause animation when reduced-motion is set */
+  @media (prefers-reduced-motion: reduce) {
+    .marquee__content {
+      animation-play-state: paused !important;
+    }
+  }
+
+  /* Enable animation */
+  .enable-animation .marquee__content {
+    animation: scroll 35s linear infinite;
+  }
+
+  /* Pause on hover */
+  .marquee--hover-pause:hover .marquee__content {
+    animation-play-state: paused;
+  }
+
+  @keyframes scroll-abs {
+    from {
+      transform: translateX(calc(100% + var(--gap)));
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+</style>

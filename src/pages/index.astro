@@ -1,6 +1,9 @@
 ---
 import { changeLanguage, t } from "i18next";
 import Layout from "../layouts/Layout.astro";
+import Card from "../components/Card.astro";
+import Marquee from "../components/Marquee.astro";
+import { partners } from "../logos_partners";
 
 changeLanguage("es");
 ---
@@ -44,7 +47,7 @@ changeLanguage("es");
       </div>
     </section>
     <article
-      class="container mx-auto pt-5 grid grid-cols-1 md:grid-cols-2 gap-3 items-center"
+      class="container mx-auto mt-10 p-4 grid grid-cols-1 md:grid-cols-2 gap-3 items-center place-items-center"
     >
       <img
         class="rounded-3xl"
@@ -55,6 +58,45 @@ changeLanguage("es");
       />
       <p set:html={t("home.description")} />
     </article>
+    <section class="container mx-auto mt-10">
+      <p class="text-center font-bold text-2xl">{t("home.title_2")}</p>
+      <div
+        class="mt-5 grid justify-center 2xl:grid-cols-3 lg:grid-cols-2 gap-8"
+      >
+        <Card
+          title={t("home.category_1")}
+          body={t("home.category_1_description")}
+          img="categorybg1.webp"
+        />
+        <Card
+          title={t("home.category_2")}
+          body={t("home.category_2_description")}
+          img="categorybg2.webp"
+        />
+        <Card
+          title={t("home.category_3")}
+          body={t("home.category_3_description")}
+          img="categorybg3.webp"
+        />
+        <Card
+          title={t("home.category_4")}
+          body={t("home.category_4_description")}
+          img="categorybg4.webp"
+        />
+        <Card
+          title={t("home.category_5")}
+          body={t("home.category_5_description")}
+          img="categorybg5.webp"
+        />
+        <Card
+          title={t("home.category_6")}
+          body={t("home.category_6_description")}
+          img="categorybg6.webp"
+        />
+      </div>
+
+      <Marquee partners={partners} title="Partners" />
+    </section>
   </main>
 </Layout>
 <style>

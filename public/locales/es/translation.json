@@ -37,7 +37,20 @@
     "home":{
         "title" : "La exhibición B2B epecializada en Industria 4.0 para la agricultura",
         "event_date" : "15 al 17 de mayo 2024 | Expo Guadalajara Jalisco",
-        "description": "Para <strong>Italian German Exhibition Company</strong> es un placer invitarlo a participar en AgroTech 2024, la primera exhibición B2B especializada en la Industria 4.0 dedicada a la agricultura.<br /><br />Nuestra exhibición está diseñada para que el sector agroindustrial que comprende toda la cadena de valor, desde la producción, la industrialización y la comercialización de productos agroalimentarios, incremente su especialización y competitividad al transitar hacia la Agroindustria 4.0 mediante la adopción de tecnologías como la Inteligencia Artificial, Big Data, Blockchain, Automatización, Drones, Logística 4.0, y muchas más."
+        "description": "Para <strong>Italian German Exhibition Company</strong> es un placer invitarlo a participar en AgroTech 2024, la primera exhibición B2B especializada en la Industria 4.0 dedicada a la agricultura.<br /><br />Nuestra exhibición está diseñada para que el sector agroindustrial que comprende toda la cadena de valor, desde la producción, la industrialización y la comercialización de productos agroalimentarios, incremente su especialización y competitividad al transitar hacia la Agroindustria 4.0 mediante la adopción de tecnologías como la Inteligencia Artificial, Big Data, Blockchain, Automatización, Drones, Logística 4.0, y muchas más.",
+        "title_2": "Categoría de Productos",
+        "category_1": "Equipos y Tecnologías",
+        "category_1_description": "para los sectores de agricultura y pesca Fabricantes de equipo Software y sistemas inteligentes Tractores Automatizados y Drones Sistemas de cultivo digitalizados Equipos de labranza y sembradoras Cosechadoras de cultivos de forraje y raíces Cultivos especiales, aspersores y sistemas de riego",
+        "category_2": "Distribución y Logística",
+        "category_2_description": "para los sEmpaques y envases Logística 4.0 Distribuidores Redes de distribución mayorista y minorista",
+        "category_3": "Insumos agrícolas",
+        "category_3_description": "Semillas, fertilizantes, pesticidas, combustibles y lubricantes",
+        "category_4": "Productos para mercado mayorista",
+        "category_4_description": "Productos finales Comercialización de productos transformados",
+        "category_5": "Transformación y procesamiento",
+        "category_5_description": "Herramientas para el suministro, procesamiento y distribución de productos agrícolas Soluciones de procesamiento almacenamiento de cultivos",
+        "category_6": "Servicios Especializados",
+        "category_6_description": "Apoyos financieros Servicios de comercio internacional Equipos de seguridad Seguros de mercancías Consultoría Certificaciones Etiquetados Organizaciones gubernamentales y no gubernamentales"
     },
     "about":{
         "title":"QUIÉNES SOMOS"
