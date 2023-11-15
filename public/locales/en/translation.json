@@ -37,7 +37,7 @@
     "home":{
         "title" : "The B2B exhibition specialized in Industry 4.0 for agriculture.",
         "event_date" : "May 15 to 17 2024 | Expo Guadalajara Jalisco",
-        "description": "Para <strong>Italian German Exhibition Company</strong> es un placer invitarlo a participar en AgroTech 2024, la primera exhibición B2B especializada en la Industria 4.0 dedicada a la agricultura.<br /><br />Nuestra exhibición está diseñada para que el sector agroindustrial que comprende toda la cadena de valor, desde la producción, la industrialización y la comercialización de productos agroalimentarios, incremente su especialización y competitividad al transitar hacia la Agroindustria 4.0 mediante la adopción de tecnologías como la Inteligencia Artificial, Big Data, Blockchain, Automatización, Drones, Logística 4.0, y muchas más.",
+        "description": "For <strong>Italian German Exhibition Company</strong> it is a pleasure to invite you to participate in AgroTech 2024, the first B2B exhibition specialized in Industry 4.0 dedicated to agriculture.<br /><br />Our exhibition is designed so that The agroindustrial sector, which includes the entire value chain, from the production, industrialization and marketing of agri-food products, increases its specialization and competitiveness by moving towards Agroindustry 4.0 through the adoption of technologies such as Artificial Intelligence, Big Data, Blockchain, Automation, Drones, Logistics 4.0, and much more.",
         "title_2": "Product Categories",
         "category_1": "Equipment & Technologies",
         "category_1_description": "for the agriculture and fishery sectors Equipment manufacturers Software and intelligent systems Automated tractors and drones Digitized farming systems Tillage equipment and seeders Forage and root crop harvesters Specialty crops, sprinklers and irrigation systems",
@@ -50,9 +50,18 @@
         "category_5": "Transformation and processing",
         "category_5_description": "Tools for the supply, processing and distribution of agricultural commodities Crop storage and processing solutions",
         "category_6": "Specialty Services",
-        "category_6_description": "Financial support International trade services Security equipment Cargo insurance Consulting Certifications Tagged Governmental and non-governmental organizations"
+        "category_6_description": "Financial support International trade services Security equipment Cargo insurance Consulting Certifications Tagged Governmental and non-governmental organizations",
+        "suscribe_title":"FIND OUT WHAT'S NEW IN AGRICULTURE 4.0",
+        "description_suscribe":"Receive the latest Industry 4.0 trends in agriculture and valuable updates on how to make the most of your experience at AgroTech Mexico 2024.",
+        "suscribe_label": "Sign up for our newsletter"
     },
     "about":{
         "title":"ABOUT US"
+    },
+    "footer":{
+        "title": "Sales Contact",
+        "event_date": "May 15 to 17 2024 <br />Expo Guadalajara Jalisco",
+        "privacy_policy": "Privacy Policy",
+        "contact": "Contact"
     }
 }

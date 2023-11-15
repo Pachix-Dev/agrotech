@@ -4,6 +4,7 @@ import Layout from "../layouts/Layout.astro";
 import Card from "../components/Card.astro";
 import Marquee from "../components/Marquee.astro";
 import { partners } from "../logos_partners";
+import Suscribe from "../components/Suscribe.astro";
 
 changeLanguage("es");
 ---
@@ -95,8 +96,9 @@ changeLanguage("es");
         />
       </div>
 
-      <Marquee partners={partners} title="Partners" />
+      <Marquee partners={partners} title="Media Partners" />
     </section>
+    <Suscribe />
   </main>
 </Layout>
 <style>

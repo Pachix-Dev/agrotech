@@ -5,6 +5,7 @@ interface Props {
     src: string;
     alt: string;
     width: number;
+    height: number;
   }>;
   title: string;
 }
@@ -15,23 +16,45 @@ const { partners, title } = Astro.props as Props;
 <section class="mt-10 pt-10 enable-animation">
   <p class="text-center text-2xl font-bold">{title}</p>
   <div class="marquee marquee--hover-pause">
+    <div class="bg-gradient-left"></div>
+    <div class="bg-gradient-right"></div>
     <ul class="marquee__content">
       {
         partners?.map((partner) => (
           <li>
-            <a href={partner.link} target="_blank">
-              <img src={partner.src} alt={partner.alt} width={partner.width} />
+            <a
+              href={partner.link}
+              target="_blank"
+              rel="noreferrer"
+              aria-label={partner.alt}
+            >
+              <img
+                src={partner.src}
+                alt={partner.alt}
+                width={partner.width}
+                height={partner.height}
+              />
             </a>
           </li>
         ))
       }
     </ul>
-    <ul aria-hidden="true" class="marquee__content">
+    <ul class="marquee__content">
       {
         partners?.map((partner) => (
           <li>
-            <a href={partner.link} target="_blank">
-              <img src={partner.src} alt={partner.alt} width={partner.width} />
+            <a
+              href={partner.link}
+              target="_blank"
+              rel="noreferrer"
+              aria-label={partner.alt}
+            >
+              <img
+                src={partner.src}
+                alt={partner.alt}
+                width={partner.width}
+                height={partner.height}
+              />
             </a>
           </li>
         ))
@@ -40,7 +63,6 @@ const { partners, title } = Astro.props as Props;
   </div>
 </section>
 <style>
-  /* Marquee styles */
   .marquee {
     --gap: 3rem;
     position: relative;
@@ -50,25 +72,27 @@ const { partners, title } = Astro.props as Props;
     gap: var(--gap);
   }
 
-  .marquee::before,
-  .marquee::after {
+  .bg-gradient-left {
     content: "";
     position: absolute;
     top: 0;
     bottom: 0;
     width: 20%;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), #fff);
+    pointer-events: none;
+    z-index: 2;
+  }
+  .bg-gradient-right {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 20%;
     background: linear-gradient(to right, rgba(255, 255, 255, 0), #fff);
     pointer-events: none;
+    z-index: 2;
   }
-
-  .marquee::after {
-    right: 0;
-  }
-
-  .marquee::before {
-    left: 0;
-  }
-
   .marquee__content {
     flex-shrink: 0;
     display: flex;
@@ -77,12 +101,15 @@ const { partners, title } = Astro.props as Props;
     gap: var(--gap);
     min-width: 100%;
   }
+
   .marquee__content img {
     transition: transform 0.3s ease-in-out;
   }
+
   .marquee__content img:hover {
     transform: scale(1.1);
   }
+
   @keyframes scroll {
     from {
       transform: translateX(0);
@@ -92,19 +119,16 @@ const { partners, title } = Astro.props as Props;
     }
   }
 
-  /* Pause animation when reduced-motion is set */
   @media (prefers-reduced-motion: reduce) {
     .marquee__content {
       animation-play-state: paused !important;
     }
   }
 
-  /* Enable animation */
   .enable-animation .marquee__content {
     animation: scroll 35s linear infinite;
   }
 
-  /* Pause on hover */
   .marquee--hover-pause:hover .marquee__content {
     animation-play-state: paused;
   }

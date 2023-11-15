@@ -1,14 +1,15 @@
 ---
-import { localizePath } from "astro-i18next";
 import i18next, { t } from "i18next";
 import { LanguageSelector } from "astro-i18next/components";
 
 const lang = i18next.language;
-const base = lang === 'es' ? '' : `/${lang}`;
+const base = lang === "es" ? "" : `/${lang}`;
 ---
 
-<nav class="sticky top-0 z-10 bg-agro-green border-gray-200 dark:bg-gray-900 dark:border-gray-700">
-  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+<nav class="sticky top-0 z-10 bg-agro-green border-gray-200">
+  <div
+    class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+  >
     <a href={`${base}/`} class="flex items-center">
       <img
         src="/img/logo_agro.webp"
@@ -19,16 +20,32 @@ const base = lang === 'es' ? '' : `/${lang}`;
       />
     </a>
     <div class="flex items-center md:order-2 button-language">
-      { 
-        i18next.language === 'en' 
-          ? <img src="/img/flag-us.svg" alt="us flag" class="h-6 w-6 rounded-full mr-2" />
-          : <img src="/img/flag-mexico.svg" alt="us flag" class="h-6 w-6 rounded-full mr-2" />
-      }  <LanguageSelector showFlag={true} class="block w-full p-2.5 rounded-lg bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500"/>      
+      {
+        i18next.language === "en" ? (
+          <img
+            src="/img/flag-us.svg"
+            alt="us flag"
+            class="h-6 w-6 rounded-full mr-2"
+          />
+        ) : (
+          <img
+            src="/img/flag-mexico.svg"
+            alt="us flag"
+            class="h-6 w-6 rounded-full mr-2"
+          />
+        )
+      }
+      <LanguageSelector
+        name={lang === "es" ? "en" : "es"}
+        showFlag={true}
+        aria-label="Select language"
+        class="block w-full p-2.5 rounded-lg bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500"
+      />
     </div>
     <button
       data-collapse-toggle="navbar-multi-level"
       type="button"
-      class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+      class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden focus:outline-none focus:ring-2 focus:ring-gray-200 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
       aria-controls="navbar-multi-level"
       aria-expanded="false"
     >
@@ -50,12 +67,12 @@ const base = lang === 'es' ? '' : `/${lang}`;
     </button>
     <div class="hidden w-full md:block md:w-auto" id="navbar-multi-level">
       <ul
-        class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+        class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0"
       >
         <li>
           <a
-            href={localizePath("/about")}
-            class="block py-2 pl-3 pr-4 rounded md:bg-transparent md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent"
+            href={`${base}/about`}
+            class="block py-2 pl-3 pr-4 rounded md:bg-transparent md:p-0"
             aria-current="page">{t("menu.aboutUS")}</a
           >
         </li>
@@ -63,7 +80,7 @@ const base = lang === 'es' ? '' : `/${lang}`;
           <button
             id="dropdownExhibitors"
             data-dropdown-toggle="dropdownNavbar"
-            class="flex items-center justify-between w-full py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
+            class="flex items-center justify-between w-full py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto"
           >
             {t("menu.option2.title")}
             <svg
@@ -84,80 +101,58 @@ const base = lang === 'es' ? '' : `/${lang}`;
           <!-- Dropdown menu -->
           <div
             id="dropdownNavbar"
-            class="dropdown z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600"
+            class="dropdown z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44"
           >
             <ul
-              class="py-2 text-sm text-gray-700 dark:text-gray-400"
+              class="py-2 text-sm text-gray-700"
               aria-labelledby="dropdownLargeButton"
             >
               <li>
-                <a
-                  href="#"
-                  class="block px-4 py-2 dark:hover:bg-gray-600 dark:hover:text-white"
+                <a href="#" class="block px-4 py-2"
                   >{t("menu.option2.subMenu.option1")}</a
                 >
               </li>
               <li>
-                <a
-                  href="#"
-                  class="block px-4 py-2 dark:hover:bg-gray-600 dark:hover:text-white"
+                <a href="#" class="block px-4 py-2"
                   >{t("menu.option2.subMenu.option2")}</a
                 >
               </li>
               <li>
-                <a
-                  href="#"
-                  class="block px-4 py-2 dark:hover:bg-gray-600 dark:hover:text-white"
+                <a href="#" class="block px-4 py-2"
                   >{t("menu.option2.subMenu.option3")}</a
                 >
               </li>
               <li>
-                <a
-                  href="#"
-                  class="block px-4 py-2 dark:hover:bg-gray-600 dark:hover:text-white"
+                <a href="#" class="block px-4 py-2"
                   >{t("menu.option2.subMenu.option4")}</a
                 >
               </li>
               <li>
-                <a
-                  href="#"
-                  class="block px-4 py-2 dark:hover:bg-gray-600 dark:hover:text-white"
+                <a href="#" class="block px-4 py-2"
                   >{t("menu.option2.subMenu.option5")}</a
                 >
               </li>
               <li>
-                <a
-                  href="#"
-                  class="block px-4 py-2 dark:hover:bg-gray-600 dark:hover:text-white"
+                <a href="#" class="block px-4 py-2"
                   >{t("menu.option2.subMenu.option6")}</a
                 >
               </li>
               <li>
-                <a
-                  href="#"
-                  class="block px-4 py-2 dark:hover:bg-gray-600 dark:hover:text-white"
+                <a href="#" class="block px-4 py-2"
                   >{t("menu.option2.subMenu.option7")}</a
                 >
               </li>
               <li>
-                <a
-                  href="#"
-                  class="block px-4 py-2 dark:hover:bg-gray-600 dark:hover:text-white"
+                <a href="#" class="block px-4 py-2"
                   >{t("menu.option2.subMenu.option8")}</a
                 >
               </li>
               <li>
-                <a
-                  href="#"
-                  class="block px-4 py-2 dark:hover:bg-gray-600 dark:hover:text-white"
-                  >Toolkit</a
-                >
+                <a href="#" class="block px-4 py-2">Toolkit</a>
               </li>
             </ul>
             <div class="py-1">
-              <a
-                href="#"
-                class="block px-4 py-2 text-sm text-gray-700 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white"
+              <a href="#" class="block px-4 py-2 text-sm text-gray-700"
                 >Sign out</a
               >
             </div>
@@ -167,7 +162,7 @@ const base = lang === 'es' ? '' : `/${lang}`;
           <button
             id="dropdownVisitor"
             data-dropdown-toggle="dropdownNavbar2"
-            class="flex items-center justify-between w-full py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
+            class="flex items-center justify-between w-full py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto"
           >
             {t("menu.option3.title")}
             <svg
@@ -188,23 +183,19 @@ const base = lang === 'es' ? '' : `/${lang}`;
           <!-- Dropdown menu -->
           <div
             id="dropdownNavbar2"
-            class="dropdown z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600"
+            class="dropdown z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44"
           >
             <ul
-              class="py-2 text-sm text-gray-700 dark:text-gray-400"
+              class="py-2 text-sm text-gray-700"
               aria-labelledby="dropdownLargeButton"
             >
               <li>
-                <a
-                  href="#"
-                  class="block px-4 py-2 dark:hover:bg-gray-600 dark:hover:text-white"
+                <a href="#" class="block px-4 py-2"
                   >{t("menu.option3.subMenu.option1")}</a
                 >
               </li>
               <li>
-                <a
-                  href="#"
-                  class="block px-4 py-2 dark:hover:bg-gray-600 dark:hover:text-white"
+                <a href="#" class="block px-4 py-2"
                   >{t("menu.option3.subMenu.option2")}</a
                 >
               </li>
@@ -215,7 +206,7 @@ const base = lang === 'es' ? '' : `/${lang}`;
           <button
             id="dropdownPasEvents"
             data-dropdown-toggle="dropdownNavbar3"
-            class="flex items-center justify-between w-full py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
+            class="flex items-center justify-between w-full py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto"
           >
             {t("menu.option4.title")}
             <svg
@@ -236,23 +227,19 @@ const base = lang === 'es' ? '' : `/${lang}`;
           <!-- Dropdown menu -->
           <div
             id="dropdownNavbar3"
-            class="dropdown z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600"
+            class="dropdown z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44"
           >
             <ul
-              class="py-2 text-sm text-gray-700 dark:text-gray-400"
+              class="py-2 text-sm text-gray-700"
               aria-labelledby="dropdownLargeButton"
             >
               <li>
-                <a
-                  href="#"
-                  class="block px-4 py-2 dark:hover:bg-gray-600 dark:hover:text-white"
+                <a href="#" class="block px-4 py-2"
                   >{t("menu.option4.subMenu.option1")}</a
                 >
               </li>
               <li>
-                <a
-                  href="#"
-                  class="block px-4 py-2 dark:hover:bg-gray-600 dark:hover:text-white"
+                <a href="#" class="block px-4 py-2"
                   >{t("menu.option4.subMenu.option2")}</a
                 >
               </li>
@@ -266,26 +253,31 @@ const base = lang === 'es' ? '' : `/${lang}`;
 <style>
   li a {
     color: white;
+    text-shadow: 4px 4px 4px black;
   }
   li button {
     color: white;
+    text-shadow: 4px 4px 4px black;
   }
   .dropdown li a {
     color: black;
+    text-shadow: none;
   }
   .dropdown li button {
     color: black;
+    text-shadow: none;
   }
   .dropdown a {
     color: black;
-  }  
-  .language-selector{
-   background-color: transparent; 
-   color: white;
-   border: none;
-   cursor: pointer;
+    text-shadow: none;
   }
-  .language-selector:focus{
+  .language-selector {
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  .language-selector:focus {
     border: none;
     box-shadow: none;
     color: black;

@@ -50,9 +50,18 @@
         "category_5": "Transformación y procesamiento",
         "category_5_description": "Herramientas para el suministro, procesamiento y distribución de productos agrícolas Soluciones de procesamiento almacenamiento de cultivos",
         "category_6": "Servicios Especializados",
-        "category_6_description": "Apoyos financieros Servicios de comercio internacional Equipos de seguridad Seguros de mercancías Consultoría Certificaciones Etiquetados Organizaciones gubernamentales y no gubernamentales"
+        "category_6_description": "Apoyos financieros Servicios de comercio internacional Equipos de seguridad Seguros de mercancías Consultoría Certificaciones Etiquetados Organizaciones gubernamentales y no gubernamentales",
+        "suscribe_title":"ENTÉRATE DE LAS NOVEDADES EN AGRICULTURA 4.0",
+        "description_suscribe":"Recibe las últimas tendencias de la Industria 4.0 en la agricultura y valiosas actualizaciones sobre cómo aprovechar al máximo tu experiencia en AgroTech México 2024.",
+        "suscribe_label": "Suscríbase a nuestro boletín"
     },
     "about":{
         "title":"QUIÉNES SOMOS"
+    },
+    "footer":{
+        "title": "Contacto de ventas",
+        "event_date": "15 al 17 de mayo 2024<br />Expo Guadalajara Jalisco",
+        "privacy_policy": "Privacy Policy",
+        "contact": "Contacto"
     }
 }

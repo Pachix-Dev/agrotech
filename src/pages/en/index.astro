@@ -1,67 +1,115 @@
 ---
 import { changeLanguage, t } from "i18next";
 import Layout from "../../layouts/Layout.astro";
+import Card from "../../components/Card.astro";
+import Marquee from "../../components/Marquee.astro";
+import { partners } from "../../logos_partners";
+import Suscribe from "../../components/Suscribe.astro";
 
 changeLanguage("en");
 ---
 
-<Layout title="Agrotech">	
-	<main>
-		<div class="relative h-screen">			
-			<video
-				class="absolute w-screen h-screen z-[-1]"
-				muted
-				loop
-				autoplay
-				playsinline
-				poster='/img/posterAgrotech.webp'
-			>
-				<source
-				src='/video_agro.mp4'
-				type='video/mp4'
-				/>
-			</video>
-			<div class="flex items-center h-full">
-				<div class="container mx-auto px-4">
-					<img src="/img/logo_agro_color.webp" alt="Logo Agrotech" class="filter-shadow" width="350" height="77" />
-					<p class="text-white font-bold home-text-agro text-2xl  pt-10">{t('home.title')}</p>
-					<p class="text-white font-bold home-text-agro text-2xl	pt-2">{t('home.event_date')}</p>
-					<img src="/img/igecoLogo.webp" alt="Igeco" width="200" height="32" class="filter-shadow pt-16" />
-				</div>
-			</div>			
-		</div>
-		<div>
-			Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam temporibus in modi, quaerat commodi illo! Aliquid eum repudiandae iste pariatur fugit facilis, aliquam ea iusto, ad et libero veritatis neque?
-			Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam temporibus in modi, quaerat commodi illo! Aliquid eum repudiandae iste pariatur fugit facilis, aliquam ea iusto, ad et libero veritatis neque?
-			Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam temporibus in modi, quaerat commodi illo! Aliquid eum repudiandae iste pariatur fugit facilis, aliquam ea iusto, ad et libero veritatis neque?
-			Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam temporibus in modi, quaerat commodi illo! Aliquid eum repudiandae iste pariatur fugit facilis, aliquam ea iusto, ad et libero veritatis neque?
-			Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam temporibus in modi, quaerat commodi illo! Aliquid eum repudiandae iste pariatur fugit facilis, aliquam ea iusto, ad et libero veritatis neque?
-			Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam temporibus in modi, quaerat commodi illo! Aliquid eum repudiandae iste pariatur fugit facilis, aliquam ea iusto, ad et libero veritatis neque?
-			Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam temporibus in modi, quaerat commodi illo! Aliquid eum repudiandae iste pariatur fugit facilis, aliquam ea iusto, ad et libero veritatis neque?
-			Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam temporibus in modi, quaerat commodi illo! Aliquid eum repudiandae iste pariatur fugit facilis, aliquam ea iusto, ad et libero veritatis neque?
-			Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam temporibus in modi, quaerat commodi illo! Aliquid eum repudiandae iste pariatur fugit facilis, aliquam ea iusto, ad et libero veritatis neque?
-			Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam temporibus in modi, quaerat commodi illo! Aliquid eum repudiandae iste pariatur fugit facilis, aliquam ea iusto, ad et libero veritatis neque?
-			Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam temporibus in modi, quaerat commodi illo! Aliquid eum repudiandae iste pariatur fugit facilis, aliquam ea iusto, ad et libero veritatis neque?
-			Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam temporibus in modi, quaerat commodi illo! Aliquid eum repudiandae iste pariatur fugit facilis, aliquam ea iusto, ad et libero veritatis neque?
-			Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam temporibus in modi, quaerat commodi illo! Aliquid eum repudiandae iste pariatur fugit facilis, aliquam ea iusto, ad et libero veritatis neque?
-			Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam temporibus in modi, quaerat commodi illo! Aliquid eum repudiandae iste pariatur fugit facilis, aliquam ea iusto, ad et libero veritatis neque?
-			Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam temporibus in modi, quaerat commodi illo! Aliquid eum repudiandae iste pariatur fugit facilis, aliquam ea iusto, ad et libero veritatis neque?
-			Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam temporibus in modi, quaerat commodi illo! Aliquid eum repudiandae iste pariatur fugit facilis, aliquam ea iusto, ad et libero veritatis neque?
-			Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam temporibus in modi, quaerat commodi illo! Aliquid eum repudiandae iste pariatur fugit facilis, aliquam ea iusto, ad et libero veritatis neque?
-			Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam temporibus in modi, quaerat commodi illo! Aliquid eum repudiandae iste pariatur fugit facilis, aliquam ea iusto, ad et libero veritatis neque?
-		</div>		
-	</main>
+<Layout title="Agrotech">
+  <main>
+    <section class="relative h-screen">
+      <video
+        class="absolute w-screen h-screen z-[-1]"
+        muted
+        loop
+        autoplay
+        playsinline
+        poster="/img/posterAgrotech.webp"
+      >
+        <source src="/video_agro.mp4" type="video/mp4" />
+      </video>
+      <div class="flex items-center h-full">
+        <div class="container mx-auto px-4">
+          <img
+            src="/img/logo_agro_color.webp"
+            alt="Logo Agrotech"
+            class="filter-shadow"
+            width="350"
+            height="77"
+          />
+          <p class="text-white font-bold home-text-agro text-2xl pt-10">
+            {t("home.title")}
+          </p>
+          <p class="text-white font-bold home-text-agro text-2xl pt-2">
+            {t("home.event_date")}
+          </p>
+          <img
+            src="/img/igecoLogo.webp"
+            alt="Igeco"
+            width="200"
+            height="32"
+            class="filter-shadow pt-16"
+          />
+        </div>
+      </div>
+    </section>
+    <article
+      class="container mx-auto mt-10 p-4 grid grid-cols-1 md:grid-cols-2 gap-3 items-center place-items-center"
+    >
+      <img
+        class="rounded-3xl"
+        src="/img/agrotechHome1.webp"
+        alt="Agrotech"
+        width="500"
+        height="300"
+      />
+      <p set:html={t("home.description")} />
+    </article>
+    <section class="container mx-auto mt-10">
+      <p class="text-center font-bold text-2xl">{t("home.title_2")}</p>
+      <div
+        class="mt-5 grid justify-center 2xl:grid-cols-3 lg:grid-cols-2 gap-8"
+      >
+        <Card
+          title={t("home.category_1")}
+          body={t("home.category_1_description")}
+          img="categorybg1.webp"
+        />
+        <Card
+          title={t("home.category_2")}
+          body={t("home.category_2_description")}
+          img="categorybg2.webp"
+        />
+        <Card
+          title={t("home.category_3")}
+          body={t("home.category_3_description")}
+          img="categorybg3.webp"
+        />
+        <Card
+          title={t("home.category_4")}
+          body={t("home.category_4_description")}
+          img="categorybg4.webp"
+        />
+        <Card
+          title={t("home.category_5")}
+          body={t("home.category_5_description")}
+          img="categorybg5.webp"
+        />
+        <Card
+          title={t("home.category_6")}
+          body={t("home.category_6_description")}
+          img="categorybg6.webp"
+        />
+      </div>
+
+      <Marquee partners={partners} title="Media Partners" />
+    </section>
+    <Suscribe />
+  </main>
 </Layout>
 <style>
-	video {
-		object-fit: cover;
-		object-position: left;
-	}
-	.home-text-agro{
-		text-shadow: 4px 4px 4px black;
-	}
-	.filter-shadow{
-		filter: drop-shadow(4px 4px 4px black);
-	}
-	
+  video {
+    object-fit: cover;
+    object-position: left;
+  }
+  .home-text-agro {
+    text-shadow: 4px 4px 4px black;
+  }
+  .filter-shadow {
+    filter: drop-shadow(4px 4px 4px black);
+  }
 </style>
