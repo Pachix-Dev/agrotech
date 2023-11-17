@@ -108,12 +108,12 @@ const base = lang === "es" ? "" : `/${lang}`;
               aria-labelledby="dropdownLargeButton"
             >
               <li>
-                <a href="#" class="block px-4 py-2"
+                <a href={`${base}/contact`} class="block px-4 py-2"
                   >{t("menu.option2.subMenu.option1")}</a
                 >
               </li>
               <li>
-                <a href="#" class="block px-4 py-2"
+                <a href={`${base}/why-exhibit`} class="block px-4 py-2"
                   >{t("menu.option2.subMenu.option2")}</a
                 >
               </li>
@@ -151,11 +151,6 @@ const base = lang === "es" ? "" : `/${lang}`;
                 <a href="#" class="block px-4 py-2">Toolkit</a>
               </li>
             </ul>
-            <div class="py-1">
-              <a href="#" class="block px-4 py-2 text-sm text-gray-700"
-                >Sign out</a
-              >
-            </div>
           </div>
         </li>
         <li>

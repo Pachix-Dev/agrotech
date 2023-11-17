@@ -1,0 +1,33 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { t, changeLanguage } from "i18next";
+
+changeLanguage("es");
+---
+
+<Layout title="Why Exhibit">
+  <div class="container mx-auto px-4 mt-10 mb-10">
+    <i class="text-black">AgroTech México</i>
+    <p class="mb-4 text-3xl tracking-tight font-extrabold text-black">
+      {t("why-exhibit.title")}
+    </p>
+    <div class="mt-10 grid lg:grid-cols-2 place-content-center">
+      <ul>
+        <li set:html={t("why-exhibit.reason_1")} />
+        <li set:html={t("why-exhibit.reason_2")} />
+        <li set:html={t("why-exhibit.reason_3")} />
+        <li set:html={t("why-exhibit.reason_4")} />
+        <li set:html={t("why-exhibit.reason_5")} />
+        <li set:html={t("why-exhibit.reason_6")} />
+        <li set:html={t("why-exhibit.reason_7")} />
+      </ul>
+      <img src="/img/whyexhibit.webp" alt="AgroTech México Exhibit" />
+    </div>
+  </div>
+</Layout>
+<style>
+  li {
+    margin-bottom: 0.8rem;
+    font-family: "Courier New", Courier, monospace;
+  }
+</style>

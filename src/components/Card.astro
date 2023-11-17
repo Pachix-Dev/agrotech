@@ -22,6 +22,9 @@ const { title, body, img } = Astro.props;
     >
       {title}
     </h5>
-    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">{body}</p>
+    <p
+      class="mb-3 font-normal text-gray-700 dark:text-gray-400"
+      set:html={body}
+    />
   </div>
 </div>

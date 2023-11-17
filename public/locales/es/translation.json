@@ -40,9 +40,9 @@
         "description": "Para <strong>Italian German Exhibition Company</strong> es un placer invitarlo a participar en AgroTech 2024, la primera exhibición B2B especializada en la Industria 4.0 dedicada a la agricultura.<br /><br />Nuestra exhibición está diseñada para que el sector agroindustrial que comprende toda la cadena de valor, desde la producción, la industrialización y la comercialización de productos agroalimentarios, incremente su especialización y competitividad al transitar hacia la Agroindustria 4.0 mediante la adopción de tecnologías como la Inteligencia Artificial, Big Data, Blockchain, Automatización, Drones, Logística 4.0, y muchas más.",
         "title_2": "Categoría de Productos",
         "category_1": "Equipos y Tecnologías",
-        "category_1_description": "para los sectores de agricultura y pesca Fabricantes de equipo Software y sistemas inteligentes Tractores Automatizados y Drones Sistemas de cultivo digitalizados Equipos de labranza y sembradoras Cosechadoras de cultivos de forraje y raíces Cultivos especiales, aspersores y sistemas de riego",
+        "category_1_description": "Sectores de agricultura y pesca.<br />Fabricantes de equipos.<br />Software y sistemas inteligentes.<br />Tractores Automatizados y drones.<br />Sistemas de cultivo digitalizados.<br />Equipos de labranza y sembradoras.<br />Cosechadoras de cultivos de forraje y raíces.<br />Cultivos especiales, aspersores y sistemas de riego.",
         "category_2": "Distribución y Logística",
-        "category_2_description": "para los sEmpaques y envases Logística 4.0 Distribuidores Redes de distribución mayorista y minorista",
+        "category_2_description": "Empaques y envases.<br />Logística 4.0.<br />Distribuidores.<br />Redes de distribución mayorista y minorista.<br />",
         "category_3": "Insumos agrícolas",
         "category_3_description": "Semillas, fertilizantes, pesticidas, combustibles y lubricantes",
         "category_4": "Productos para mercado mayorista",
@@ -56,7 +56,30 @@
         "suscribe_label": "Suscríbase a nuestro boletín"
     },
     "about":{
-        "title":"QUIÉNES SOMOS"
+        "description":"Para <strong>Italian German Exhibition Company</strong> es un placer invitarlo a participar en <strong>AgroTech México 2024</strong>, la primera exhibición B2B especializada en la Industria 4.0 dedicada a la agricultura.<br /><br />La agroindustria mexicana tiene un futuro prometedor. No obstante, para poder mantener nuestra competitividad y convertirnos en los líderes de esta industria a nivel global, será necesario llevar la agricultura a la era digital.<br /><br />La gran biodiversidad de México es una de las principales causas de la alta productividad de este sector, pues aproximadamente 13 % del territorio nacional se utiliza como campo agrícola, lo que nos permite cosechar cerca de 200 productos en diferentes estaciones y temporadas del año. Somos el 11° productor de alimentos del mundo y el 7° exportador mundial, así como la 3° industria alimentaria más grande del continente americano. Nuestros productos agroalimentarios, entre los que destacan el aguacate, el tomate, la zarzamora, el chile verde, la frambuesa, el limón y la carne de bovino se consumen en 164 países con un mercado potencial de 1,353 millones de personas.<br /><br />Aunado a eso, nuestra red de 12 tratados comerciales con acceso preferencial a 52 países, hacen que nuestras exportaciones agroalimentarias aumenten año con año. Durante el primer semestre del 2023, las exportaciones agroalimentarias del país ascendieron a los 31,487 millones de dólares; mientras que, la exportación de productos agroindustriales superó los 17 mil millones de dólares, un 6.74 % superior al mismo periodo del 2022.<br /><br />México es hoy un jugador líder en esta industria, por ello AgroTech México está diseñada para llevar la revolución al campo mediante la adopción de tecnologías 4.0, Big Data, Inteligencia Artificial, Blockchain, Automatización, Logística 4.0. permitiendo acelerar la construcción de un futuro más competitivo, eficaz, sostenible, dando soluciones innovadoras para la optimización en los procesos productivos de toda la industria, facilitar la integración a las cadenas productivas globales y promover la producción sustentable de alimentos.<br /><br />¡Los esperamos en AgroTech México 2024!",
+        "team": "Su equipo AgroTech México"
+    },
+    "contact":{
+        "title":"Contacto",
+        "description":"Para más información sobre <strong>AgroTech México 2024</strong>, por favor contáctenos.",
+        "form":{
+            "name":"Nombre",
+            "email":"Correo electrónico",
+            "subject":"Asunto",
+            "message":"Mensaje",
+            "send":"Enviar"
+        }    
+    },
+    "why-exhibit":{
+        "title":"Razones para ser expositor en AgroTech México 2024",
+        "reason_1": "<strong>7,000 </strong> compradores nacionales e internacionales",
+        "reason_2": "<strong>10,200 m2</strong> de piso expositor",
+        "reason_3": "Más de <strong>100  expositores</strong>",
+        "reason_4": "<strong>Equipos y tecnologías</strong> para la agricultura y floricultura",
+        "reason_5": "<strong>Lanza tus productos,</strong> servicios o innovaciones a través del robusto programa de conferencias y talleres",
+        "reason_6": "<strong>Encuentra nuevos aliados,</strong> distribuidores y/o agentes",
+        "reason_7": "Genera y <strong>aumenta tus ventas</strong>",
+        "reason_8": "Relación con <strong>medios de comunicación</strong>"
     },
     "footer":{
         "title": "Contacto de ventas",

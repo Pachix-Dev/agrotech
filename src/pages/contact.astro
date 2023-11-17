@@ -1,0 +1,76 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { t, changeLanguage } from "i18next";
+
+changeLanguage("es");
+---
+
+<Layout title="Contact Agrotech">
+  <section class="bg-gray-800">
+    <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+      <i class="text-white">AgroTech México</i>
+      <p class="mb-4 text-4xl tracking-tight font-extrabold text-white">
+        {t("contact.title")}
+      </p>
+      <p class="text-white" set:html={t("contact.description")} />
+      <form action="#" class="mt-10 space-y-10">
+        <div>
+          <label for="email" class="block mb-2 text-sm font-medium text-white"
+            >{t("contact.form.name")}</label
+          >
+          <input
+            type="email"
+            id="email"
+            class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+            placeholder="name@flowbite.com"
+            required
+          />
+        </div>
+        <div>
+          <label for="email" class="block mb-2 text-sm font-medium text-white"
+            >{t("contact.form.email")}</label
+          >
+          <input
+            type="email"
+            id="email"
+            class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+            placeholder="name@flowbite.com"
+            required
+          />
+        </div>
+        <div>
+          <label for="subject" class="block mb-2 text-sm font-medium text-white"
+            >{t("contact.form.subject")}</label
+          >
+          <input
+            type="text"
+            id="subject"
+            class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+            placeholder="Let us know how we can help you"
+            required
+          />
+        </div>
+        <div class="sm:col-span-2">
+          <label for="message" class="block mb-2 text-sm font-medium text-white"
+            >{t("contact.form.message")}</label
+          >
+          <textarea
+            id="message"
+            rows="6"
+            class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500"
+            placeholder="Leave a comment..."></textarea>
+        </div>
+        <button
+          type="submit"
+          class="text-white bg-agro-green hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center"
+          >{t("contact.form.send")}</button
+        >
+      </form>
+      <p class="text-white text-center mt-10 text-lg">
+        <strong>IGECO</strong><br /> Blvd. Francisco Villa 102, piso 14<br />
+         Col. Oriental 37510<br /> León Guanajuato, México <br />
+         www.igeco.mx
+      </p>
+    </div>
+  </section>
+</Layout>
