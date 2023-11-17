@@ -71,15 +71,16 @@
         }    
     },
     "why-exhibit":{
-        "title":"Razones para ser expositor en AgroTech México 2024",
-        "reason_1": "<strong>7,000 </strong> compradores nacionales e internacionales",
-        "reason_2": "<strong>10,200 m2</strong> de piso expositor",
-        "reason_3": "Más de <strong>100  expositores</strong>",
-        "reason_4": "<strong>Equipos y tecnologías</strong> para la agricultura y floricultura",
-        "reason_5": "<strong>Lanza tus productos,</strong> servicios o innovaciones a través del robusto programa de conferencias y talleres",
-        "reason_6": "<strong>Encuentra nuevos aliados,</strong> distribuidores y/o agentes",
-        "reason_7": "Genera y <strong>aumenta tus ventas</strong>",
-        "reason_8": "Relación con <strong>medios de comunicación</strong>"
+        "title":"¿Por qué participar en AgroTech México 2024?",
+        "reason_1": "compradores nacionales e internacionales.",
+        "reason_2": "de piso expositor.",
+        "reason_3": "expositores.",
+        "reason_4": "en negocios en sitio (2023).",
+        "reason_5": "en valor de cobertura mediática.",
+        "reason_6": "Obtenga el conocimiento más especializado sobre la <strong>Agroindustria 4.0</strong>",
+        "reason_7": "Expanda su red de negocios en la zona agrícola más importante del país.",
+        "reason_8": "Conozca los más innovadores equipos y tecnologías para la agricultura y floricultura.",
+        "reason_9": "Encuentre nuevos aliados estratégicos."
     },
     "footer":{
         "title": "Contacto de ventas",
