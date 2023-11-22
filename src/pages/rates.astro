@@ -1,0 +1,48 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { t, changeLanguage } from "i18next";
+
+changeLanguage("es");
+---
+
+<Layout title="Rates Agrotech">
+  <section class="mt-10 mb-10 container mx-auto">
+    <i>AgroTech México</i>
+    <p class="font-extrabold text-3xl">{t("rates.title")}</p>
+    <div class="mt-10 grid grid-cols-2 gap-5 place-items-center">
+      <figure
+        class="relative max-w-sm transition-all duration-300 filter grayscale hover:grayscale-0"
+      >
+        <img
+          class="rounded-lg"
+          src="/img/bg_rates1.webp"
+          alt="image description"
+        />
+        <figcaption class="absolute px-4 text-lg text-white bottom-6">
+          <p class="font-extrabold text-2xl">{t("rates.option_1")}</p>
+          <p class="text-lg">{t("rates.description_1")}</p>
+          <p class="mt-5 text-sm">{t("rates.includes_1")}</p>
+        </figcaption>
+      </figure>
+      <figure
+        class="relative max-w-sm transition-all duration-300 filter grayscale hover:grayscale-0"
+      >
+        <img
+          class="rounded-lg"
+          src="/img/bg_rates2.webp"
+          alt="image description"
+        />
+        <figcaption class="absolute px-4 text-lg text-white bottom-6">
+          <p class="font-extrabold text-2xl">{t("rates.option_2")}</p>
+          <p class="text-lg">{t("rates.description_2")}</p>
+          <p class="mt-5 text-sm">{t("rates.includes_2")}</p>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+</Layout>
+<style>
+  figcaption {
+    text-shadow: 4px 4px 4px rgba(0, 0, 0);
+  }
+</style>

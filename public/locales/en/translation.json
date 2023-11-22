@@ -8,14 +8,12 @@
         "option2": {
             "title":"EXHIBITORS",
             "subMenu": {
-                "option1":"Contact",
-                "option2":"Why exhibit",
-                "option3":"Exhibitor Profile",
-                "option4":"Exhibitor Services",
-                "option5":"Factsheet 2024",
-                "option6":"Floor plan 2024",
-                "option7":"Contract 2024",
-                "option8":"Rates"                
+                "option1":"Contact",                
+                "option2":"Exhibitor Services",
+                "option3":"Factsheet 2024",
+                "option4":"Floor plan 2024",
+                "option5":"Contract 2024",
+                "option6":"Rates"                
             }
         },
         "option3":{
@@ -80,6 +78,17 @@
         "reason_6": "<strong>Find new,</strong> allies, distributors and/or agents",
         "reason_7": "Generate <strong>and grow your sales</strong>",
         "reason_8": "<strong>Media relations</strong>"
+    },
+    "services": {
+        "option_1": "BANQUET KIT 2023",
+        "description_1": "Discover excellence in every detail with Kit Banquetes, your ideal partner for unforgettable events.",
+        "option_2": "GENERAL EXHIBITOR CONTRACTING FORMAT",
+        "description_2": "This detailed document establishes the conditions and benefits that will accompany your participation in our event.",
+        "option_3": "FOOD AND BEVERAGE PROCUREMENT FORM",
+        "description_3": "Our Food and Beverage Contracting Form has been meticulously designed to ensure that every bite is a delight and every sip an experience.",
+        "option_4": "BOARDING INSTRUCTIONS",
+        "description_4": "This document is your step-by-step guide to ensure a smooth boarding process and a pleasant voyage.",
+        "read_more": "Read more"
     },
     "footer":{
         "title": "Sales Contact",

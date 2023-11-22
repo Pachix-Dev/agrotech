@@ -113,42 +113,40 @@ const base = lang === "es" ? "" : `/${lang}`;
                 >
               </li>
               <li>
-                <a href={`${base}/why-exhibit`} class="block px-4 py-2"
+                <a href={`${base}/services`} class="block px-4 py-2"
                   >{t("menu.option2.subMenu.option2")}</a
                 >
               </li>
               <li>
-                <a href="#" class="block px-4 py-2"
-                  >{t("menu.option2.subMenu.option3")}</a
+                <a
+                  href={i18next.language === "en"
+                    ? "/files/AGROTECH-FACTSHEET-EN-2024.pdf"
+                    : "/files/AGROTECH-FACTSHEET-2024.pdf"}
+                  target="_blank"
+                  class="block px-4 py-2">{t("menu.option2.subMenu.option3")}</a
                 >
               </li>
               <li>
-                <a href="#" class="block px-4 py-2"
-                  >{t("menu.option2.subMenu.option4")}</a
+                <a
+                  href="/files/AGROTECH-WSF-2024-PLANO.pdf"
+                  target="_blank"
+                  class="block px-4 py-2">{t("menu.option2.subMenu.option4")}</a
                 >
               </li>
               <li>
-                <a href="#" class="block px-4 py-2"
-                  >{t("menu.option2.subMenu.option5")}</a
+                <a
+                  href="/files/AGROTECH-CONTRACT-2024.pdf"
+                  target="_blank"
+                  class="block px-4 py-2">{t("menu.option2.subMenu.option5")}</a
                 >
               </li>
               <li>
-                <a href="#" class="block px-4 py-2"
+                <a href={`${base}/rates`} class="block px-4 py-2"
                   >{t("menu.option2.subMenu.option6")}</a
                 >
               </li>
               <li>
-                <a href="#" class="block px-4 py-2"
-                  >{t("menu.option2.subMenu.option7")}</a
-                >
-              </li>
-              <li>
-                <a href="#" class="block px-4 py-2"
-                  >{t("menu.option2.subMenu.option8")}</a
-                >
-              </li>
-              <li>
-                <a href="#" class="block px-4 py-2">Toolkit</a>
+                <a href={`${base}/toolkit`} class="block px-4 py-2">Toolkit</a>
               </li>
             </ul>
           </div>
@@ -192,50 +190,6 @@ const base = lang === "es" ? "" : `/${lang}`;
               <li>
                 <a href="#" class="block px-4 py-2"
                   >{t("menu.option3.subMenu.option2")}</a
-                >
-              </li>
-            </ul>
-          </div>
-        </li>
-        <li>
-          <button
-            id="dropdownPasEvents"
-            data-dropdown-toggle="dropdownNavbar3"
-            class="flex items-center justify-between w-full py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto"
-          >
-            {t("menu.option4.title")}
-            <svg
-              class="w-2.5 h-2.5 ml-2.5"
-              aria-hidden="true"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 10 6"
-            >
-              <path
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="m1 1 4 4 4-4"></path>
-            </svg>
-          </button>
-          <!-- Dropdown menu -->
-          <div
-            id="dropdownNavbar3"
-            class="dropdown z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44"
-          >
-            <ul
-              class="py-2 text-sm text-gray-700"
-              aria-labelledby="dropdownLargeButton"
-            >
-              <li>
-                <a href="#" class="block px-4 py-2"
-                  >{t("menu.option4.subMenu.option1")}</a
-                >
-              </li>
-              <li>
-                <a href="#" class="block px-4 py-2"
-                  >{t("menu.option4.subMenu.option2")}</a
                 >
               </li>
             </ul>

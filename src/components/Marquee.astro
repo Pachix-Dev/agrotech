@@ -13,8 +13,8 @@ interface Props {
 const { partners, title } = Astro.props as Props;
 ---
 
-<section class="mt-10 pt-10 enable-animation">
-  <p class="text-center text-2xl font-bold">{title}</p>
+<section class="container mx-auto mt-10 pt-10 enable-animation">
+  <p class="text-center font-extrabold text-3xl">{title}</p>
   <div class="marquee marquee--hover-pause">
     <div class="bg-gradient-left"></div>
     <div class="bg-gradient-right"></div>

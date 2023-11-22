@@ -6,7 +6,10 @@ changeLanguage("en");
 ---
 
 <Layout title="About Agrotech">
-    <div>
-        <h1>{t('about.title')}</h1>
-    </div>
+  <div class="container mx-auto mt-10 mb-10">
+    <img src="/img/aboutAgrotech.webp" alt="AgroTech México" />
+    <p class="m-10 font-bold text-4xl">AgroTech México</p>
+    <p class="m-10" set:html={t("about.description")} />
+    <p class="text-center font-bold">{t("about.team")}</p>
+  </div>
 </Layout>

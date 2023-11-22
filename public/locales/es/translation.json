@@ -8,24 +8,15 @@
         "option2": {
             "title":"EXPOSITORES",
             "subMenu": {
-                "option1":"Contacto",
-                "option2":"Por qué exponer",
-                "option3":"Perfil del expositor",
-                "option4":"Servicios a Expositores",
-                "option5":"Factsheet 2024",
-                "option6":"Plano 2024",
-                "option7":"Contrato 2024",
-                "option8":"Tarifas"                
+                "option1":"Contacto",                
+                "option2":"Servicios a Expositores",
+                "option3":"Factsheet 2024",
+                "option4":"Plano 2024",
+                "option5":"Contrato 2024",
+                "option6":"Tarifas"                
             }
-        },
+        },        
         "option3":{
-            "title":"VISITANTES",
-            "subMenu": {
-                "option1":"Por qué asistir",
-                "option2":"Tipo de audiencia"                
-            }
-        },
-        "option4":{
             "title":"HISTÓRICO",
             "subMenu":{
                 "option1":"Directorio 2023",
@@ -57,7 +48,20 @@
     },
     "about":{
         "description":"Para <strong>Italian German Exhibition Company</strong> es un placer invitarlo a participar en <strong>AgroTech México 2024</strong>, la primera exhibición B2B especializada en la Industria 4.0 dedicada a la agricultura.<br /><br />La agroindustria mexicana tiene un futuro prometedor. No obstante, para poder mantener nuestra competitividad y convertirnos en los líderes de esta industria a nivel global, será necesario llevar la agricultura a la era digital.<br /><br />La gran biodiversidad de México es una de las principales causas de la alta productividad de este sector, pues aproximadamente 13 % del territorio nacional se utiliza como campo agrícola, lo que nos permite cosechar cerca de 200 productos en diferentes estaciones y temporadas del año. Somos el 11° productor de alimentos del mundo y el 7° exportador mundial, así como la 3° industria alimentaria más grande del continente americano. Nuestros productos agroalimentarios, entre los que destacan el aguacate, el tomate, la zarzamora, el chile verde, la frambuesa, el limón y la carne de bovino se consumen en 164 países con un mercado potencial de 1,353 millones de personas.<br /><br />Aunado a eso, nuestra red de 12 tratados comerciales con acceso preferencial a 52 países, hacen que nuestras exportaciones agroalimentarias aumenten año con año. Durante el primer semestre del 2023, las exportaciones agroalimentarias del país ascendieron a los 31,487 millones de dólares; mientras que, la exportación de productos agroindustriales superó los 17 mil millones de dólares, un 6.74 % superior al mismo periodo del 2022.<br /><br />México es hoy un jugador líder en esta industria, por ello AgroTech México está diseñada para llevar la revolución al campo mediante la adopción de tecnologías 4.0, Big Data, Inteligencia Artificial, Blockchain, Automatización, Logística 4.0. permitiendo acelerar la construcción de un futuro más competitivo, eficaz, sostenible, dando soluciones innovadoras para la optimización en los procesos productivos de toda la industria, facilitar la integración a las cadenas productivas globales y promover la producción sustentable de alimentos.<br /><br />¡Los esperamos en AgroTech México 2024!",
-        "team": "Su equipo AgroTech México"
+        "team": "Su equipo AgroTech México",
+        "title_2": "Nuestra audiencia",
+        "description_2": "AgroTech México reúne a los expertos de la agricultura y pesca de México y Latinoamérica, abriendo oportunidades para intercambiar innovaciones, ideas y cerrar negocios.<br /><br />En tres días de feria comercial, combinado con un extenso programa educativo y encuentros de negocio, usted tendrá la oportunidad de ampliar sus mercados, expandir su lista de clientes y adquirir lo último en tecnologías y conocimiento especializado de la industria.",
+        "list_1": "Productores de alimentos (Agricultores, Ganaderos, Acuicultores, etc.)",
+        "list_2": "Minoristas (grandes almacenes, supermercados, tiendas de conveniencia, etc.)",
+        "list_3": "Distribución(comercializadoras, mayoristas, etc.)",
+        "list_4": "Procesadores de alimentos y bebidas",
+        "list_5": "Servicio de alimentación (restaurantes, catering, reposición de comidas caseras, etc.)",
+        "list_6": "Servicios de logística y transporte",
+        "list_7": "Servicios de paquetería y embalajes",
+        "list_8": "Proveedores",
+        "list_9": "Compradores",
+        "list_10": "Agencias gubernamentales",
+        "list_11": "Asociaciones"
     },
     "contact":{
         "title":"Contacto",
@@ -77,10 +81,30 @@
         "reason_3": "expositores.",
         "reason_4": "en negocios en sitio (2023).",
         "reason_5": "en valor de cobertura mediática.",
-        "reason_6": "Obtenga el conocimiento más especializado sobre la <strong>Agroindustria 4.0</strong>",
+        "reason_6": "Obtenga el conocimiento más especializado sobre la Agroindustria 4.0",
         "reason_7": "Expanda su red de negocios en la zona agrícola más importante del país.",
         "reason_8": "Conozca los más innovadores equipos y tecnologías para la agricultura y floricultura.",
         "reason_9": "Encuentre nuevos aliados estratégicos."
+    },
+    "services": {
+        "option_1": "KIT BANQUETES 2023",
+        "description_1": "Descubre la excelencia en cada detalle con Kit Banquetes, tu socio ideal para eventos inolvidables.",
+        "option_2": "FORMATO GENERAL DE CONTRATACIÓN A EXPOSITORES",
+        "description_2": " Este documento detallado establece las condiciones y beneficios que acompañarán tu participación en nuestro evento.",
+        "option_3": "FORMATO DE CONTRATACIÓN DE ALIMENTOS Y BEBIDAS",
+        "description_3": "Nuestro Formato de Contratación de Alimentos y Bebidas ha sido diseñado meticulosamente para garantizar que cada bocado sea una delicia y cada sorbo una experiencia",
+        "option_4": "INSTRUCCIONES DE EMBARQUE",
+        "description_4": "Este documento es tu guía detallada para garantizar un proceso de embarque sin complicaciones y una travesía placentera.",
+        "read_more": "Leer más"
+    },
+    "rates":{
+        "title":"Tarifas para AgroTech México 2024",
+        "option_1": "Área libre",
+        "description_1": "A partir de 18 m2 MXN 3,150.00 m2 + IVA",
+        "includes_1":"Incluye: Gafetes, boletos visitantes y mención en el directorio de expositores.",
+        "option_2": "Stand equipado",
+        "description_2": "A partir de 9 m2 MXN 3,150.00 m2 + IVA",
+        "includes_2": "Incluye: Dos sillas, una mesa y un counter, alfombra,mamparas, rótulo de vinyl, contacto eléctrico 110V, mención en directorio de expositores, gafete de expositor y boletos de visitante."
     },
     "footer":{
         "title": "Contacto de ventas",
