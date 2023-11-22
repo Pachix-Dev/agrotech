@@ -1,5 +1,8 @@
 ---
-import { t } from "i18next";
+import i18next, { t } from "i18next";
+
+const lang = i18next.language;
+const base = lang === "es" ? "" : `/${lang}`;
 ---
 
 <footer>
@@ -172,9 +175,7 @@ import { t } from "i18next";
           <a href="https://igeco.mx/aviso-de-privacidad" target="_blank"
             >{t("footer.privacy_policy")}</a
           > |
-          <a href="https://igeco.mx/aviso-de-privacidad" target="_blank"
-            >{t("footer.contact")}</a
-          >
+          <a href={`${base}/contact`}>{t("footer.contact")}</a>
         </p>
       </div>
     </div>

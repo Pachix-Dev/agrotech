@@ -15,15 +15,8 @@
                 "option5":"Contract 2024",
                 "option6":"Rates"                
             }
-        },
+        },        
         "option3":{
-            "title":"VISITORS",
-            "subMenu": {
-                "option1":"Why assist",
-                "option2":"Audience type"                
-            }
-        },
-        "option4":{
             "title":"PAST EVENTS",
             "subMenu":{
                 "option1":"Directory 2023",
@@ -69,15 +62,15 @@
         }    
     },
     "why-exhibit":{
-        "title":"reasons to be an exhibitor in AgroTech México 2024",
+        "title":"Reasons to be an exhibitor in AgroTech México 2024",
         "reason_1": "<strong>7,000 </strong> national and international buyers",
         "reason_2": "<strong>10,200 m2</strong> of floor display",
         "reason_3": "Over <strong>100  exhibitors</strong>",
         "reason_4": "<strong>Equipment and technologies</strong> for agriculture and floriculture",
         "reason_5": "<strong>Launch your products,</strong> services or innovations through a robust program of conferences and workshops.",
-        "reason_6": "<strong>Find new,</strong> allies, distributors and/or agents",
-        "reason_7": "Generate <strong>and grow your sales</strong>",
-        "reason_8": "<strong>Media relations</strong>"
+        "reason_6": "Find new, allies, distributors and/or agents",
+        "reason_7": "Generate and grow your sales",
+        "reason_8": "Media relations"
     },
     "services": {
         "option_1": "BANQUET KIT 2023",
@@ -95,5 +88,8 @@
         "event_date": "May 15 to 17 2024 <br />Expo Guadalajara Jalisco",
         "privacy_policy": "Privacy Policy",
         "contact": "Contact"
+    },
+    "widgetsocial":{        
+        "description": "Event held simultaneously with Agrotech"
     }
 }
