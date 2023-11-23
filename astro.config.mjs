@@ -9,6 +9,8 @@ import partytown from "@astrojs/partytown";
 // https://astro.build/config
 export default defineConfig({
   site: "https://hfmexico.mx/agrotechmexico/",
+  base: "/agrotechmexico",
+  publicDir: "/agrotechmexico/public",  
   integrations: [sitemap({
     i18n: {
       defaultLocale: "es",
