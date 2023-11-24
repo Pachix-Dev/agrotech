@@ -28,26 +28,27 @@
     "home":{
         "title" : "The B2B exhibition specialized in Industry 4.0 for agriculture.",
         "event_date" : "May 15 to 17 2024 | Expo Guadalajara Jalisco",
-        "description": "For <strong>Italian German Exhibition Company</strong> it is a pleasure to invite you to participate in AgroTech 2024, the first B2B exhibition specialized in Industry 4.0 dedicated to agriculture.<br /><br />Our exhibition is designed so that The agroindustrial sector, which includes the entire value chain, from the production, industrialization and marketing of agri-food products, increases its specialization and competitiveness by moving towards Agroindustry 4.0 through the adoption of technologies such as Artificial Intelligence, Big Data, Blockchain, Automation, Drones, Logistics 4.0, and much more.",
+        "description": "AgroTech Mexico, under the support of Deutsche Messe and Italian Exhibition Group, two of the most important organizers of industrial fairs globally, is the leading exhibition that brings together professionals, companies and experts from the agricultural and industrial sector, facilitating the latest trends and advances in technology 4.0; promoting the transition of the Mexican countryside towards Agroindustry 4.0. This will improve production processes throughout the industry, a more efficient, sustainable and sustainable production, integration into global supply chains, as well as increase competitiveness.",
         "title_2": "Product Categories",
         "category_1": "Equipment & Technologies",
-        "category_1_description": "for the agriculture and fishery sectors Equipment manufacturers Software and intelligent systems Automated tractors and drones Digitized farming systems Tillage equipment and seeders Forage and root crop harvesters Specialty crops, sprinklers and irrigation systems",
+        "category_1_description": "for the agriculture and fishery sectors<br /> Equipment manufacturers <br />Software and intelligent systems<br /> Automated tractors and drones<br /> Digitized farming systems<br /> Tillage equipment and seeders <br />Forage and root crop harvesters <br />Specialty crops, sprinklers and irrigation systems",
         "category_2": "Distribution & Logistics",
-        "category_2_description": "Packaging and containers Logistics 4.0 Distributors Wholesale and retail distribution networks",
+        "category_2_description": "Packaging and containers <br />Logistics 4.0 <br />Distributors <br />Wholesale and retail distribution networks",
         "category_3": "Agricultural supplies",
         "category_3_description": "Seeds, fertilizers, pesticides, fuels and lubricants",
         "category_4": "Wholesale products",
-        "category_4_description": "Final products Marketing of processed products",
+        "category_4_description": "Final products<br /> Marketing of processed products",
         "category_5": "Transformation and processing",
-        "category_5_description": "Tools for the supply, processing and distribution of agricultural commodities Crop storage and processing solutions",
+        "category_5_description": "Tools for the supply, processing and distribution of agricultural commodities<br /> Crop storage and processing solutions",
         "category_6": "Specialty Services",
-        "category_6_description": "Financial support International trade services Security equipment Cargo insurance Consulting Certifications Tagged Governmental and non-governmental organizations",
+        "category_6_description": "Financial support <br />International trade services <br />Security equipment <br />Cargo insurance<br /> Consulting Certifications <br />Tagged Governmental and non-governmental organizations",
         "suscribe_title":"FIND OUT WHAT'S NEW IN AGRICULTURE 4.0",
         "description_suscribe":"Receive the latest Industry 4.0 trends in agriculture and valuable updates on how to make the most of your experience at AgroTech Mexico 2024.",
-        "suscribe_label": "Sign up for our newsletter"
+        "suscribe_label": "Sign up for our newsletter",
+        "suscribe_button": "Subscribe"
     },
     "about":{
-        "description":"<strong>Italian German Exhibition Company</strong> is pleased to invite you to participate in <strong>AgroTech Mexico 2024</strong>, the first B2B exhibition specialized in Industry 4.0 dedicated to agriculture.<br /><br />Mexican agribusiness has a promising future. However, in order to maintain our competitiveness and become the leaders of this industry globally, it will be necessary to bring agriculture into the digital era.<br /><br />Mexico's great biodiversity is one of the main reasons for the high productivity of this sector, as approximately 13% of the national territory is used as agricultural land, which allows us to harvest close to 200 products in different seasons and seasons of the year. We are the 11th largest food producer in the world and the 7th largest exporter, as well as the 3rd largest food industry in the Americas. Our agri-food products, including avocados, tomatoes, blackberries, green chiles, raspberries, lemons and beef, are consumed in 164 countries with a potential market of 1,353 million people.<br /><br />In addition, our network of 12 trade agreements with preferential access to 52 countries means that our agri-food exports are increasing year after year. During the first half of 2023, the country's agri-food exports amounted to 31.487 billion dollars, while the export of agro-industrial products exceeded 17 billion dollars, 6.74% higher than the same period in 2022.<br /><br />Mexico is today a leading player in this industry, therefore AgroTech Mexico is designed to bring the revolution to the field through the adoption of 4.0 technologies, Big Data, Artificial Intelligence, Blockchain, Automation, Logistics 4.0. allowing to accelerate the construction of a more competitive, efficient, sustainable future, giving innovative solutions for the optimization in the productive processes of the entire industry, facilitating the integration to global production chains and promoting sustainable food production.<br /><br />We look forward to seeing you at AgroTech Mexico 2024.",
+        "description":"<strong>Italian German Exhibition Company</strong> is pleased to invite you to participate in <strong>AgroTech Mexico 2024</strong>, the first B2B exhibition specialized in Industry 4.0 dedicated to agriculture.<br /><br />Mexican agribusiness has a promising future. However, in order to maintain our competitiveness and become the leaders of this industry globally, it will be necessary to bring agriculture into the digital era.<br /><br />Mexico's great biodiversity is one of the main reasons for the high productivity of this sector, as approximately 13% of the national territory is used as agricultural land, which allows us to harvest close to 200 products in different seasons and seasons of the year. We are the 11th largest food producer in the world and the 7th largest exporter, as well as the 3rd largest food industry in the Americas. Our agri-food products, including avocados, tomatoes, blackberries, green chiles, raspberries, lemons and beef, are consumed in 164 countries with a potential market of 1,353 million people.<br /><br />In addition, our network of 12 trade agreements with preferential access to 52 countries means that our agri-food exports are increasing year after year. During the first half of 2023, the country's agri-food exports amounted to 31.487 billion dollars, while the export of agro-industrial products exceeded 17 billion dollars, 6.74% higher than the same period in 2022.<br /><br />Mexico is today a leading player in this industry, therefore AgroTech Mexico is designed to bring the revolution to the field through the adoption of 4.0 technologies, Big Data, Artificial Intelligence, Blockchain, Automation, Logistics 4.0. allowing to accelerate the construction of a more competitive, efficient, sustainable future, giving innovative solutions for the optimization in the productive processes of the entire industry, facilitating the integration to global production chains and promoting sustainable food production.<br /><br /><p class='text-center font-bold'>We look forward to seeing you at AgroTech Mexico 2024.</p>",
         "team": "Your AgroTech Mexico Team"
     },
     "contact":{
@@ -63,14 +64,15 @@
     },
     "why-exhibit":{
         "title":"Reasons to be an exhibitor in AgroTech México 2024",
-        "reason_1": "<strong>7,000 </strong> national and international buyers",
-        "reason_2": "<strong>10,200 m2</strong> of floor display",
-        "reason_3": "Over <strong>100  exhibitors</strong>",
-        "reason_4": "<strong>Equipment and technologies</strong> for agriculture and floriculture",
-        "reason_5": "<strong>Launch your products,</strong> services or innovations through a robust program of conferences and workshops.",
-        "reason_6": "Find new, allies, distributors and/or agents",
-        "reason_7": "Generate and grow your sales",
-        "reason_8": "Media relations"
+        "reason_1": "national and international buyers.",
+        "reason_2": "of floor display.",
+        "reason_3": "exhibitors",
+        "reason_4": "in on-site business (2023).",
+        "reason_5": "in value of media coverage.",
+        "reason_6": "Get the most specialized knowledge on Agribusiness 4.0",
+        "reason_7": "Expand your business network in the most important agricultural area of the country.",
+        "reason_8": "Learn about the most innovative equipment and technologies for agriculture and floriculture.",
+        "reason_9": "Find the best strategic allies of agricultural products, services and technologies."
     },
     "services": {
         "option_1": "BANQUET KIT 2023",
