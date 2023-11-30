@@ -2,7 +2,7 @@
 import Layout from "../../layouts/Layout.astro";
 import { changeLanguage, t } from "i18next";
 import { gallery2023 } from "../../constants_gallery";
-import Gallery from "../../components/Gallery.jsx";
+import LightBox from "../../components/LightBox.jsx";
 
 changeLanguage("en");
 ---
@@ -12,6 +12,7 @@ changeLanguage("en");
     <h1 class="font-extrabold text-4xl text-agro-green text-center">
       {t("menu.gallery")}
     </h1>
-    <Gallery images={gallery2023} client:visible />
+    <LightBox images={gallery2023} client:visible />
   </section>
 </Layout>
+ ../components/LightBox.jsx

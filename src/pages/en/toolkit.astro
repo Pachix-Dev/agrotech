@@ -2,7 +2,7 @@
 import Layout from "../../layouts/Layout.astro";
 import { changeLanguage } from "i18next";
 import { toolkit } from "../../constants_gallery";
-import Gallery from "../../components/Gallery.jsx";
+import LightBox from "../../components/LightBox.jsx";
 
 changeLanguage("en");
 ---
@@ -10,6 +10,6 @@ changeLanguage("en");
 <Layout title="Rates Agrotech">
   <section class="container mx-auto pt-10 mb-10">
     <h1 class="font-extrabold text-4xl text-agro-green text-center">TOOLKIT</h1>
-    <Gallery images={toolkit} client:visible />
+    <LightBox images={toolkit} client:visible />
   </section>
 </Layout>
