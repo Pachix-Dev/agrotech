@@ -1,18 +1,35 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
-const Lightbox = ({ images }) => {
-  const [lightboxOpen, setLightboxOpen] = useState(false);
+export default function LightGallery ({images}){  
+  const [isOpen, setIsOpen] = useState(false);
+
   const [currentImage, setCurrentImage] = useState(0);
-  const [currentPage, setCurrentPage] = useState(1);
+  const [currentPage, setCurrentPage] = useState(1);  
   const imagesPerPage = 8;
+  
+
+  useEffect(() => {
+    const handleKeyDown = (event) => {
+      if (event.key === 'Escape') {
+        closeLightbox();
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+
+    return () => {
+      window.removeEventListener('keydown', handleKeyDown);
+    };
+  }, []);
 
   const openLightbox = (index) => {
     setCurrentImage(index);
-    setLightboxOpen(true);
+    setIsOpen(true);
   };
 
   const closeLightbox = () => {
-    setLightboxOpen(false);
+    setCurrentImage(null);
+    setIsOpen(false);
   };
 
   const nextImage = () => {
@@ -23,7 +40,12 @@ const Lightbox = ({ images }) => {
     setCurrentImage((prevIndex) => (prevIndex - 1 + images.length) % images.length);
   };
 
+  const handleThumbnailClick = (index) => {
+    setCurrentImage(index);
+  };
+
   const handlePageClick = (page) => {
+    if(page < 1 || page > Math.ceil(images.length / imagesPerPage)) return;
     setCurrentPage(page);
   };
 
@@ -34,23 +56,25 @@ const Lightbox = ({ images }) => {
   };
 
   return (
-    <>
-      <div className='mt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 place-items-start'>
+    <div className="mt-10 grid gap-4">
+      <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         {getPaginatedImages().map((image, index) => (
-          <div key={index}>
+          <div key={index} className="cursor-pointer">
             <img
+              className="h-60 w-full object-cover rounded-lg"
               src={image.src}
               alt={image.alt}
               onClick={() => openLightbox(index)}
-              className='object-cover w-96 h-56 cursor-pointer'
             />
             <p className='text-center font-bold text-xl'>{image.title}</p>
           </div>
         ))}
+      </div>
 
-        {lightboxOpen && (
-          <div className="lightbox">          
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-9 text-white absolute top-[10px] right-10 close cursor-pointer" onClick={closeLightbox}>
+      {isOpen && (
+        <div className="fixed top-0 z-50 left-0 w-full h-full bg-black bg-opacity-90 grid place-content-center">
+          <div className="w-full md:w-11/12 mx-auto">           
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-9 absolute font-extrabold top-2 right-12 text-white cursor-pointer" onClick={closeLightbox}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M9.75 9.75l4.5 4.5m0-4.5l-4.5 4.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
             <a href={images[currentImage].src} download target="_blank" rel="noopener" aria-label="Download">
@@ -58,70 +82,32 @@ const Lightbox = ({ images }) => {
                 <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m.75 12l3 3m0 0l3-3m-3 3v-6m-1.5-9H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
               </svg>
             </a>
-
-            <div className="lightbox-content">
-              <img src={images[currentImage].src} alt={images[currentImage].alt} />            
-              <p className='text-center text-white font-bold text-xl'>{images[currentImage].title}</p>
-              <a className="prev" onClick={prevImage}>&#10094;</a>
-              <a className="next" onClick={nextImage}>&#10095;</a>
-            </div>
+            <img
+              className="h-auto w-full"
+              src={images[currentImage].src}
+              alt={images[currentImage].alt}
+            />
           </div>
-        )}
+          <div className="grid grid-cols-4 gap-4 sm:grid-cols-8 md:flex justify-center mt-4 mb-4">
+            {getPaginatedImages().map((thumb, index) => (
+              <div
+                key={index}
+                className={`cursor-pointer w-20 h-20 mx-1 ${
+                  index === currentImage ? 'border-2 border-blue-500' : ''
+                }`}
+                onClick={() => handleThumbnailClick(index)}
+              >
+                <img
+                  className="w-full h-full rounded object-cover"
+                  src={thumb.src}
+                  alt={thumb.alt}
+                />
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
 
-        <style>
-          {`          
-            .gallery img {
-              width: 100px;
-              height: 100px;
-              margin: 5px;
-              cursor: pointer;
-            }
-
-            .lightbox {
-              position: fixed;
-              top: 0;
-              left: 0;
-              width: 100%;
-              height: 100%;
-              background: rgba(0, 0, 0, 0.9);
-              display: flex;
-              align-items: center;
-              justify-content: center;
-              z-index: 999;
-            }
-
-            .lightbox-content {
-              position: relative;
-            }
-
-            .lightbox img {            
-              border: 2px solid #fff;
-              box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
-            }        
-
-            .lightbox .prev,
-            .lightbox .next {
-              cursor: pointer;
-              position: absolute;
-              top: 50%;
-              width: auto;
-              padding: 16px;
-              color: white;
-              font-weight: bold;
-              font-size: 20px;
-              transition: 0.6s ease;
-              border-radius: 0 3px 3px 0;
-              user-select: none;
-            }
-
-            .lightbox .next {
-              right: 0;
-              border-radius: 3px 0 0 3px;
-            }
-          `}
-        </style>
-
-      </div>
       {
         images.length > imagesPerPage && 
         <nav aria-label="Page navigation gallery" className='mt-5 text-center'>
@@ -134,8 +120,7 @@ const Lightbox = ({ images }) => {
               >
                 Previous
               </a>
-            </li>
-            {/* Render pagination based on the number of pages */}
+            </li>            
             {Array.from({ length: Math.ceil(images.length / imagesPerPage) }, (_, index) => (
               <li key={index}>
                 <a
@@ -163,8 +148,7 @@ const Lightbox = ({ images }) => {
           </ul>
         </nav>
       }
-    </>
+    </div>
   );
-};
+}
 
-export default Lightbox;
