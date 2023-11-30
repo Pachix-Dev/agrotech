@@ -23,24 +23,26 @@
                 "option2":"Reporte de resultados 2023"
             }
 
-        }        
+        },
+        "gallery": "GALERÍA"     
     },
     "home":{
         "title" : "La exhibición B2B epecializada en Industria 4.0 para la agricultura",
         "event_date" : "15 al 17 de mayo 2024 | Expo Guadalajara Jalisco",
         "description": "<strong>AgroTech México</strong>, bajo el respaldo de <strong>Deutsche Messe e Italian Exhibition Group</strong>, dos de los organizadores más importantes de ferias industriales a nivel global, es la exposición líder que reúne a profesionales, empresas y expertos del sector agrícola e industrial facilitando las últimas tendencias y los avances en <strong>tecnología 4.0</strong> impulsando la transición del campo mexicano hacia la <strong>Agroindustria 4.0</strong>. Esto permitirá mejorar procesos productivos de toda la industria, una producción más eficiente, sustentable y sostenible, la integración a las cadenas productivas globales, así como aumentar la competitividad.",
+        "collaboration": "*En colaboración con World Seafood Industry",
         "title_2": "Categoría de Productos",
-        "category_1": "Equipos y Tecnologías",
-        "category_1_description": "Sectores de agricultura y pesca.<br />Fabricantes de equipos.<br />Software y sistemas inteligentes.<br />Tractores.<br /> Automatizados y drones.<br />Sistemas de cultivo digitalizados.<br />Equipos de labranza y sembradoras.<br />Cosechadoras de cultivos de forraje y raíces.<br />Cultivos especiales, aspersores y sistemas de riego.",
-        "category_2": "Distribución y Logística",
+        "category_1": "MAQUINARIA Y EQUIPOS AGRICOLAS",
+        "category_1_description": "Cosechadoras de cultivos de forraje y raíces.<br />Cultivos especiales, aspersores y sistemas de riego.",
+        "category_2": "AGROTECNOLOGIA",
         "category_2_description": "Empaques y envases.<br />Logística 4.0.<br />Distribuidores.<br />Redes de distribución mayorista y minorista.<br />",
-        "category_3": "Insumos agrícolas",
+        "category_3": "INSUMOS AGRICOLAS",
         "category_3_description": "Semillas, fertilizantes, pesticidas, combustibles y lubricantes",
-        "category_4": "Productos para mercado mayorista",
+        "category_4": "INVERNADEROS",
         "category_4_description": "Productos finales<br /> Comercialización de productos transformados",
-        "category_5": "Transformación y procesamiento",
+        "category_5": "MANEJO DEL AGUA",
         "category_5_description": "Herramientas para el suministro, procesamiento y distribución de productos agrícolas<br /> Soluciones de procesamiento almacenamiento de cultivos",
-        "category_6": "Servicios Especializados",
+        "category_6": "SERVICIOS ESPECIALIZADOS",
         "category_6_description": "Apoyos financieros <br />Servicios de comercio internacional<br /> Equipos de seguridad <br />Seguros de mercancías <br />Consultoría <br />Certificaciones <br />Etiquetados <br />Organizaciones gubernamentales y no gubernamentales",
         "suscribe_title":"ENTÉRATE DE LAS NOVEDADES EN AGRICULTURA 4.0",
         "description_suscribe":"Recibe las últimas tendencias de la Industria 4.0 en la agricultura y valiosas actualizaciones sobre cómo aprovechar al máximo tu experiencia en AgroTech México 2024.",
@@ -101,10 +103,10 @@
     "rates":{
         "title":"Tarifas para AgroTech México 2024",
         "option_1": "Área libre",
-        "description_1": "A partir de 18 m2 MXN 3,150.00 m2 + IVA",
+        "description_1": "A partir de 18 m2  3,150.00 MXN + IVA",
         "includes_1":"Incluye: Gafetes, boletos visitantes y mención en el directorio de expositores.",
         "option_2": "Stand equipado",
-        "description_2": "A partir de 9 m2 MXN 3,150.00 m2 + IVA",
+        "description_2": "A partir de 9 m2 31,500.00 MXN + IVA",
         "includes_2": "Incluye: Dos sillas, una mesa y un counter, alfombra,mamparas, rótulo de vinyl, contacto eléctrico 110V, mención en directorio de expositores, gafete de expositor y boletos de visitante."
     },
     "footer":{

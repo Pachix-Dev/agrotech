@@ -23,24 +23,26 @@
                 "option2":"Aftershow report 2023"
             }
 
-        }        
+        },
+        "gallery": "GALLERY"       
     },
     "home":{
         "title" : "The B2B exhibition specialized in Industry 4.0 for agriculture.",
         "event_date" : "May 15 to 17 2024 | Expo Guadalajara Jalisco",
         "description": "AgroTech Mexico, under the support of Deutsche Messe and Italian Exhibition Group, two of the most important organizers of industrial fairs globally, is the leading exhibition that brings together professionals, companies and experts from the agricultural and industrial sector, facilitating the latest trends and advances in technology 4.0; promoting the transition of the Mexican countryside towards Agroindustry 4.0. This will improve production processes throughout the industry, a more efficient, sustainable and sustainable production, integration into global supply chains, as well as increase competitiveness.",
+        "collaboration":"*In collaboration with World Seafood Industry",
         "title_2": "Product Categories",
-        "category_1": "Equipment & Technologies",
+        "category_1": "AGRICULTURAL MACHINERY AND EQUIPMENT",
         "category_1_description": "for the agriculture and fishery sectors<br /> Equipment manufacturers <br />Software and intelligent systems<br /> Automated tractors and drones<br /> Digitized farming systems<br /> Tillage equipment and seeders <br />Forage and root crop harvesters <br />Specialty crops, sprinklers and irrigation systems",
-        "category_2": "Distribution & Logistics",
+        "category_2": "AGRITECHNOLOGY",
         "category_2_description": "Packaging and containers <br />Logistics 4.0 <br />Distributors <br />Wholesale and retail distribution networks",
-        "category_3": "Agricultural supplies",
+        "category_3": "AGRICULTURAL SUPPLIES",
         "category_3_description": "Seeds, fertilizers, pesticides, fuels and lubricants",
-        "category_4": "Wholesale products",
+        "category_4": "GREENHOUSES",
         "category_4_description": "Final products<br /> Marketing of processed products",
-        "category_5": "Transformation and processing",
+        "category_5": "WATER TREATMENT",
         "category_5_description": "Tools for the supply, processing and distribution of agricultural commodities<br /> Crop storage and processing solutions",
-        "category_6": "Specialty Services",
+        "category_6": "SPECIALIZED SERVICES",
         "category_6_description": "Financial support <br />International trade services <br />Security equipment <br />Cargo insurance<br /> Consulting Certifications <br />Tagged Governmental and non-governmental organizations",
         "suscribe_title":"FIND OUT WHAT'S NEW IN AGRICULTURE 4.0",
         "description_suscribe":"Receive the latest Industry 4.0 trends in agriculture and valuable updates on how to make the most of your experience at AgroTech Mexico 2024.",

@@ -1,0 +1,17 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { changeLanguage, t } from "i18next";
+import { gallery2023 } from "../../constants_gallery";
+import Gallery from "../../components/Gallery.jsx";
+
+changeLanguage("en");
+---
+
+<Layout title="Rates Agrotech">
+  <section class="container mx-auto pt-10 mb-10">
+    <h1 class="font-extrabold text-4xl text-agro-green text-center">
+      {t("menu.gallery")}
+    </h1>
+    <Gallery images={gallery2023} client:visible />
+  </section>
+</Layout>
