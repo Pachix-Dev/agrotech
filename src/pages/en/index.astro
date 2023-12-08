@@ -4,7 +4,7 @@ import Layout from "../../layouts/Layout.astro";
 import Card from "../../components/Card.astro";
 import Marquee from "../../components/Marquee.astro";
 import { partners } from "../../logos_partners";
-import Suscribe from "../../components/Suscribes.astro";
+import { Suscribe } from "../../components/Suscribe";
 
 changeLanguage("en");
 ---
@@ -173,8 +173,8 @@ changeLanguage("en");
         <a
           class="text-black font-bold hover:bg-[#8BBF20] hover:text-white rounded-lg text-lg px-5 py-2.5 text-center me-2 mb-2 flex items-center"
           href={i18next.language === "en"
-            ? "/agrotechmexico/files/AGROTECH-FACTSHEET-EN-2024v1.pdf"
-            : "/agrotechmexico/files/AGROTECH-FACTSHEET-2024v1.pdf"}
+            ? "/agrotechmexico/files/AGROTECH-FACTSHEET-EN-2024v2.pdf"
+            : "/agrotechmexico/files/AGROTECH-FACTSHEET-ES-2024v2.pdf"}
           target="_blank"
         >
           <svg
@@ -274,7 +274,13 @@ changeLanguage("en");
 
       <Marquee partners={partners} title="Media Partners" />
     </section>
-    <Suscribe />
+    <Suscribe
+      title={t("home.suscribe_title")}
+      description={t("home.description_suscribe")}
+      suscribe_label={t("home.suscribe_label")}
+      button={t("home.suscribe_button")}
+      client:only
+    />
   </main>
 </Layout>
 <style>
