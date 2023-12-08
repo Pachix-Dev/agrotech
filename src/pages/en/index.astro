@@ -5,6 +5,7 @@ import Card from "../../components/Card.astro";
 import Marquee from "../../components/Marquee.astro";
 import { partners } from "../../logos_partners";
 import { Suscribe } from "../../components/Suscribe";
+import Categories from "../../components/Categories.astro";
 
 changeLanguage("en");
 ---
@@ -235,43 +236,8 @@ changeLanguage("en");
         </a>
       </div>
     </article>
-    <section class="container mx-auto mt-20">
-      <p class="text-center font-extrabold text-3xl">{t("home.title_2")}</p>
-      <div
-        class="mt-5 pt-10 grid justify-center 2xl:grid-cols-3 lg:grid-cols-2 gap-8 place-items-center"
-      >
-        <Card
-          title={t("home.category_1")}
-          body={t("home.category_1_description")}
-          img="categorybgv1.webp"
-        />
-        <Card
-          title={t("home.category_2")}
-          body={t("home.category_2_description")}
-          img="categorybgv2.webp"
-        />
-        <Card
-          title={t("home.category_3")}
-          body={t("home.category_3_description")}
-          img="categorybgv3.webp"
-        />
-        <Card
-          title={t("home.category_4")}
-          body={t("home.category_4_description")}
-          img="categorybgv4.webp"
-        />
-        <Card
-          title={t("home.category_5")}
-          body={t("home.category_5_description")}
-          img="categorybgv5.webp"
-        />
-        <Card
-          title={t("home.category_6")}
-          body={t("home.category_6_description")}
-          img="categorybg6.webp"
-        />
-      </div>
-
+    <section class="mt-20">
+      <Categories />
       <Marquee partners={partners} title="Media Partners" />
     </section>
     <Suscribe
