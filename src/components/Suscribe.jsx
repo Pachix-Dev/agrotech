@@ -4,71 +4,46 @@ import { useState } from 'react'
 export function Suscribe({title, description, suscribe_label, button}){
 
   const [message, setMessage] = useState()
-  const [sendStatus, setSendStatus] = useState(false)
- 
+  const [sendStatus, setSendStatus] = useState(false) 
 
   const handleSubmit = async (event) => {
     event.preventDefault()
-    console.log('Enviado')
-    /*if (captcha === false) {
-      event.stopPropagation()
-      setMessage('Please verify you are not bot.')
-    } else {
-      const token = captchaRef.current.getValue()
-      captchaRef.current.reset()
-      setCaptcha(false)
-      const formData = Object.fromEntries(new window.FormData(event.target))
+    console.log('Enviado') 
+    /*
+    const formData = Object.fromEntries(new window.FormData(event.target))
 
-      const requestOptions = {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({ token })
-      }
+    const requestOptions = {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({ formData })
+    }
 
-      const requestOptions2 = {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({ formData })
-      }
-      try {
-        setSendStatus(true)
-        const res = await fetch(
-          'https://hfmexico.mx/foro-electromovilidad/backend/verifyMacs.php',
-          requestOptions
-        )
-        const data = await res.json()
-        if (data.success) {
-          const statusEmail = await fetch('https://hfmexico.mx/foro-electromovilidad/backend/email/send-email3', requestOptions2)
-          const dataEmail = await statusEmail.json()
-          if (dataEmail.status) {
-            setSendStatus(false)
-            setMessage('¡Gracias por contactarnos! En breve nos pondremos en contacto contigo.')
-          } else {
-            setSendStatus(false)
-            setMessage('Lo sentimos en este momento no es posible enviar tu información...')
-          }
-        } else {
-          setSendStatus(false)
-          setMessage('Lo sentimos no pudimos comprobar que no eres un robot...')
-        }
-      } catch (error) {
-        console.log(error)
+    try {
+      setSendStatus(true)      
+      const statusEmail = await fetch('https://hfmexico.mx/foro-electromovilidad/backend/email/send-email3', requestOptions)
+      const dataEmail = await statusEmail.json()
+      if (dataEmail.status) {
+        setSendStatus(false)
+        setMessage('¡Gracias por contactarnos! En breve nos pondremos en contacto contigo.')
+      } else {
         setSendStatus(false)
         setMessage('Lo sentimos en este momento no es posible enviar tu información...')
-      }
-      document.getElementById('form-contact').reset()
-    }*/
+      }      
+    } catch (error) {
+      console.log(error)
+      setSendStatus(false)
+      setMessage('Lo sentimos en este momento no es posible enviar tu información...')
+    }
+    document.getElementById('form-contact').reset()
+    */
   }
   
   return (
     <section
         className="text-center p-4 border shadow-md sm:p-6 lg:p-8 bg-gray-800 border-gray-700 mt-10"
         aria-label="Subscribe to the Flowbite newsletter">
-
         <h3 className="mb-3 text-xl font-medium text-white">
             {title}
         </h3>
@@ -119,7 +94,7 @@ export function Suscribe({title, description, suscribe_label, button}){
                     type="submit"
                     className="text-gray-900 bg-agro-green hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 font-bold rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 mt-5 sm:mt-0 text-center"
                     >
-                        {button}
+                    {button}
                 </button>
             </form>
         </div>
