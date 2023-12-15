@@ -1,6 +1,6 @@
 ---
 import Header from "../components/Header.astro";
-
+import { ViewTransitions } from "astro:transitions";
 interface Props {
   title: string;
 }
@@ -23,6 +23,7 @@ import Footer from "../components/Footer.astro";
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
     <meta name="description" content={t("site.description")} />
+
     <HeadHrefLangs />
     <!-- Google tag (gtag.js) -->
     <script

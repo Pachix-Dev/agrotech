@@ -1,17 +1,14 @@
 import { useState } from 'react'
 
-
 export function Suscribe({title, description, suscribe_label, button}){
 
-  const [message, setMessage] = useState()
+  const [message, setMessage] = useState('')
   const [sendStatus, setSendStatus] = useState(false) 
 
   const handleSubmit = async (event) => {
     event.preventDefault()
-    console.log('Enviado') 
-    /*
+      
     const formData = Object.fromEntries(new window.FormData(event.target))
-
     const requestOptions = {
       method: 'POST',
       headers: {
@@ -22,22 +19,23 @@ export function Suscribe({title, description, suscribe_label, button}){
 
     try {
       setSendStatus(true)      
-      const statusEmail = await fetch('https://hfmexico.mx/foro-electromovilidad/backend/email/send-email3', requestOptions)
+      const statusEmail = await fetch('https://hfmexico.mx/agrotechmexico/backend/suscribe.php', requestOptions)
       const dataEmail = await statusEmail.json()
       if (dataEmail.status) {
         setSendStatus(false)
-        setMessage('¡Gracias por contactarnos! En breve nos pondremos en contacto contigo.')
+        setMessage('¡Gracias por suscribirte!')
       } else {
         setSendStatus(false)
-        setMessage('Lo sentimos en este momento no es posible enviar tu información...')
+        setMessage('Ya te encuentras suscrito gracias.')
       }      
     } catch (error) {
       console.log(error)
       setSendStatus(false)
       setMessage('Lo sentimos en este momento no es posible enviar tu información...')
+    }finally {
+      setSendStatus(false);
+      document.getElementById('form-contact').reset();
     }
-    document.getElementById('form-contact').reset()
-    */
   }
   
   return (
@@ -83,19 +81,40 @@ export function Suscribe({title, description, suscribe_label, button}){
                     <input
                     id="member_email"
                     className="formkit-input bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block pl-10 p-2.5"
-                    name="email_address"
+                    name="email"
                     aria-label="Email Address"
                     placeholder="Your email address..."
-                    required=""
+                    required
                     type="email"
                     />
                 </div>
-                <button
-                    type="submit"
-                    className="text-gray-900 bg-agro-green hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 font-bold rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 mt-5 sm:mt-0 text-center"
-                    >
-                    {button}
-                </button>
+                {
+                  sendStatus 
+                  ? 
+                  <span className="text-white flex">
+                    <svg className="animate-spin -ml-1 mr-3 h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                      <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                      <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>                              
+                    </svg> Enviando ...
+                  </span>
+                  :
+                    <>
+                      {
+                        message === '' 
+                        ?
+                          <button
+                            type="submit"
+                            className="text-gray-900 bg-agro-green hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 font-bold rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 mt-5 sm:mt-0 text-center"
+                            >
+                            {button}
+                          </button>
+                        :
+                          <span className="text-white font-bold rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 mt-5 sm:mt-0 text-center">
+                          {message}
+                          </span>
+                      }
+                    </>
+                }                
             </form>
         </div>
     </section>    
