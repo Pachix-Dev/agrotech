@@ -1,7 +1,7 @@
 {
     "site":{
         "title":"Agrotech México 2024",
-        "description":"Nuestra exhibición está diseñada para que el sector agroindustrial que comprende toda la cadena de valor, desde la producción, la industrialización y la comercialización de sector agroalimentario, incremente su especialización y competitividad al transitar hacia la Agroindustria 4.0 mediante la adopción de tecnologías como la Inteligencia Artificial, Big Data, Blockchain, Automatización, Drones, Logística 4.0, y muchas más."
+        "description":"Nuestra exhibición está diseñada para que el sector agroindustrial que comprende toda la cadena de valor, desde la producción, la industrialización y la comercialización de sector agroalimentario, incremente su especialización y competitividad al transitar hacia la Agroindustria mediante la adopción de tecnologías como la Inteligencia Artificial, Big Data, Blockchain, Automatización, Drones, Logística, y muchas más."
     },
     "menu":{
         "aboutUS":"QUIÉNES SOMOS",
@@ -35,7 +35,7 @@
         "category_1": "MAQUINARIA Y EQUIPOS AGRÍCOLAS",
         "category_1_description": "Cosechadoras de cultivos de forraje y raíces.<br />Cultivos especiales, aspersores y sistemas de riego.",
         "category_2": "AGROTECNOLOGÍA",
-        "category_2_description": "Empaques y envases.<br />Logística 4.0.<br />Distribuidores.<br />Redes de distribución mayorista y minorista.<br />",
+        "category_2_description": "Empaques y envases.<br />Logística.<br />Distribuidores.<br />Redes de distribución mayorista y minorista.<br />",
         "category_3": "INSUMOS AGRÍCOLAS",
         "category_3_description": "Semillas, fertilizantes, pesticidas, combustibles y lubricantes",
         "category_4": "INVERNADEROS",
@@ -44,13 +44,13 @@
         "category_5_description": "Herramientas para el suministro, procesamiento y distribución de productos agrícolas<br /> Soluciones de procesamiento almacenamiento de cultivos",
         "category_6": "SERVICIOS ESPECIALIZADOS",
         "category_6_description": "Apoyos financieros <br />Servicios de comercio internacional<br /> Equipos de seguridad <br />Seguros de mercancías <br />Consultoría <br />Certificaciones <br />Etiquetados <br />Organizaciones gubernamentales y no gubernamentales",
-        "suscribe_title":"ENTÉRATE DE LAS NOVEDADES EN AGRICULTURA 4.0",
-        "description_suscribe":"Recibe las últimas tendencias de la Industria 4.0 en la agricultura y valiosas actualizaciones sobre cómo aprovechar al máximo tu experiencia en AgroTech México 2024.",
+        "suscribe_title":"ENTÉRATE DE LAS NOVEDADES EN AGRICULTURA",
+        "description_suscribe":"Recibe las últimas tendencias de la Industria en la agricultura y valiosas actualizaciones sobre cómo aprovechar al máximo tu experiencia en AgroTech México 2024.",
         "suscribe_label": "Suscríbase a nuestro boletín",
         "suscribe_button": "Suscribirse"
     },
     "about":{
-        "description":"Para <strong>Italian German Exhibition Company</strong> es un placer invitarlo a participar en <strong>AgroTech México 2024</strong>, la primera exhibición B2B especializada en la Industria 4.0 dedicada a la agricultura.<br /><br />La agroindustria mexicana tiene un futuro prometedor. No obstante, para poder mantener nuestra competitividad y convertirnos en los líderes de esta industria a nivel global, será necesario llevar la agricultura a la era digital.<br /><br />La gran biodiversidad de México es una de las principales causas de la alta productividad de este sector, pues aproximadamente 13 % del territorio nacional se utiliza como campo agrícola, lo que nos permite cosechar cerca de 200 productos en diferentes estaciones y temporadas del año. Somos el 11° productor de alimentos del mundo y el 7° exportador mundial, así como la 3° industria alimentaria más grande del continente americano. Nuestros productos agroalimentarios, entre los que destacan el aguacate, el tomate, la zarzamora, el chile verde, la frambuesa, el limón y la carne de bovino se consumen en 164 países con un mercado potencial de 1,353 millones de personas.<br /><br />Aunado a eso, nuestra red de 12 tratados comerciales con acceso preferencial a 52 países, hacen que nuestras exportaciones agroalimentarias aumenten año con año. Durante el primer semestre del 2023, las exportaciones agroalimentarias del país ascendieron a los 31,487 millones de dólares; mientras que, la exportación de productos agroindustriales superó los 17 mil millones de dólares, un 6.74 % superior al mismo periodo del 2022.<br /><br />México es hoy un jugador líder en esta industria, por ello AgroTech México está diseñada para llevar la revolución al campo mediante la adopción de tecnologías 4.0, Big Data, Inteligencia Artificial, Blockchain, Automatización, Logística 4.0. permitiendo acelerar la construcción de un futuro más competitivo, eficaz, sostenible, dando soluciones innovadoras para la optimización en los procesos productivos de toda la industria, facilitar la integración a las cadenas productivas globales y promover la producción sustentable de alimentos.<br /><br /><p class='text-center font-bold'>¡Los esperamos en AgroTech México 2024!</p>",
+        "description":"Para <strong>Italian German Exhibition Company</strong> es un placer invitarlo a participar en <strong>AgroTech México 2024</strong>, la primera exhibición B2B especializada en la Industria dedicada a la agricultura.<br /><br />La agroindustria mexicana tiene un futuro prometedor. No obstante, para poder mantener nuestra competitividad y convertirnos en los líderes de esta industria a nivel global, será necesario llevar la agricultura a la era digital.<br /><br />La gran biodiversidad de México es una de las principales causas de la alta productividad de este sector, pues aproximadamente 13 % del territorio nacional se utiliza como campo agrícola, lo que nos permite cosechar cerca de 200 productos en diferentes estaciones y temporadas del año. Somos el 11° productor de alimentos del mundo y el 7° exportador mundial, así como la 3° industria alimentaria más grande del continente americano. Nuestros productos agroalimentarios, entre los que destacan el aguacate, el tomate, la zarzamora, el chile verde, la frambuesa, el limón y la carne de bovino se consumen en 164 países con un mercado potencial de 1,353 millones de personas.<br /><br />Aunado a eso, nuestra red de 12 tratados comerciales con acceso preferencial a 52 países, hacen que nuestras exportaciones agroalimentarias aumenten año con año. Durante el primer semestre del 2023, las exportaciones agroalimentarias del país ascendieron a los 31,487 millones de dólares; mientras que, la exportación de productos agroindustriales superó los 17 mil millones de dólares, un 6.74 % superior al mismo periodo del 2022.<br /><br />México es hoy un jugador líder en esta industria, por ello AgroTech México está diseñada para llevar la revolución al campo mediante la adopción de tecnologías, Big Data, Inteligencia Artificial, Blockchain, Automatización, Logística. permitiendo acelerar la construcción de un futuro más competitivo, eficaz, sostenible, dando soluciones innovadoras para la optimización en los procesos productivos de toda la industria, facilitar la integración a las cadenas productivas globales y promover la producción sustentable de alimentos.<br /><br /><p class='text-center font-bold'>¡Los esperamos en AgroTech México 2024!</p>",
         "team": "Su equipo AgroTech México",
         "title_2": "Nuestra audiencia",
         "description_2": "AgroTech México reúne a los expertos de la agricultura y pesca de México y Latinoamérica, abriendo oportunidades para intercambiar innovaciones, ideas y cerrar negocios.<br /><br />En tres días de feria comercial, combinado con un extenso programa educativo y encuentros de negocio, usted tendrá la oportunidad de ampliar sus mercados, expandir su lista de clientes y adquirir lo último en tecnologías y conocimiento especializado de la industria.",
@@ -84,7 +84,7 @@
         "reason_3": "expositores.",
         "reason_4": "en negocios en sitio (2023).",
         "reason_5": "en valor de cobertura mediática.",
-        "reason_6": "Obtenga el conocimiento más especializado sobre la Agroindustria 4.0",
+        "reason_6": "Obtenga el conocimiento más especializado sobre la Agroindustria",
         "reason_7": "Expanda su red de negocios en la zona agrícola más importante del país.",
         "reason_8": "Conozca los más innovadores equipos y tecnologías para la agricultura y floricultura.",
         "reason_9": "Encuentre nuevos aliados estratégicos."

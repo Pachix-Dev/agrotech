@@ -1,7 +1,7 @@
 {
     "site":{
         "title":"Agrotech Mexico 2024",
-        "description":"Our exhibition is designed for the agribusiness sector comprising the entire value chain, from production, industrialization and marketing of agricultural products, to increase its specialization and competitiveness by moving towards Agribusiness 4.0 through the adoption of technologies such as Artificial Intelligence, Big Data, Blockchain, Automation, Drones, Logistics 4.0, and many more."
+        "description":"Our exhibition is designed for the agribusiness sector comprising the entire value chain, from production, industrialization and marketing of agricultural products, to increase its specialization and competitiveness by moving towards Agribusiness through the adoption of technologies such as Artificial Intelligence, Big Data, Blockchain, Automation, Drones, Logistics, and many more."
     },
     "menu":{
         "aboutUS":"ABOUT US",
@@ -35,7 +35,7 @@
         "category_1": "AGRICULTURAL MACHINERY AND EQUIPMENT",
         "category_1_description": "for the agriculture and fishery sectors<br /> Equipment manufacturers <br />Software and intelligent systems<br /> Automated tractors and drones<br /> Digitized farming systems<br /> Tillage equipment and seeders <br />Forage and root crop harvesters <br />Specialty crops, sprinklers and irrigation systems",
         "category_2": "AGRITECHNOLOGY",
-        "category_2_description": "Packaging and containers <br />Logistics 4.0 <br />Distributors <br />Wholesale and retail distribution networks",
+        "category_2_description": "Packaging and containers <br />Logistics <br />Distributors <br />Wholesale and retail distribution networks",
         "category_3": "AGRICULTURAL SUPPLIES",
         "category_3_description": "Seeds, fertilizers, pesticides, fuels and lubricants",
         "category_4": "GREENHOUSES",
@@ -44,13 +44,13 @@
         "category_5_description": "Tools for the supply, processing and distribution of agricultural commodities<br /> Crop storage and processing solutions",
         "category_6": "SPECIALIZED SERVICES",
         "category_6_description": "Financial support <br />International trade services <br />Security equipment <br />Cargo insurance<br /> Consulting Certifications <br />Tagged Governmental and non-governmental organizations",
-        "suscribe_title":"FIND OUT WHAT'S NEW IN AGRICULTURE 4.0",
-        "description_suscribe":"Receive the latest Industry 4.0 trends in agriculture and valuable updates on how to make the most of your experience at AgroTech Mexico 2024.",
+        "suscribe_title":"FIND OUT WHAT'S NEW IN AGRICULTURE",
+        "description_suscribe":"Receive the latest Industry trends in agriculture and valuable updates on how to make the most of your experience at AgroTech Mexico 2024.",
         "suscribe_label": "Sign up for our newsletter",
         "suscribe_button": "Subscribe"
     },
     "about":{
-        "description":"<strong>Italian German Exhibition Company</strong> is pleased to invite you to participate in <strong>AgroTech Mexico 2024</strong>, the first B2B exhibition specialized in Industry 4.0 dedicated to agriculture.<br /><br />Mexican agribusiness has a promising future. However, in order to maintain our competitiveness and become the leaders of this industry globally, it will be necessary to bring agriculture into the digital era.<br /><br />Mexico's great biodiversity is one of the main reasons for the high productivity of this sector, as approximately 13% of the national territory is used as agricultural land, which allows us to harvest close to 200 products in different seasons and seasons of the year. We are the 11th largest food producer in the world and the 7th largest exporter, as well as the 3rd largest food industry in the Americas. Our agri-food products, including avocados, tomatoes, blackberries, green chiles, raspberries, lemons and beef, are consumed in 164 countries with a potential market of 1,353 million people.<br /><br />In addition, our network of 12 trade agreements with preferential access to 52 countries means that our agri-food exports are increasing year after year. During the first half of 2023, the country's agri-food exports amounted to 31.487 billion dollars, while the export of agro-industrial products exceeded 17 billion dollars, 6.74% higher than the same period in 2022.<br /><br />Mexico is today a leading player in this industry, therefore AgroTech Mexico is designed to bring the revolution to the field through the adoption of 4.0 technologies, Big Data, Artificial Intelligence, Blockchain, Automation, Logistics 4.0. allowing to accelerate the construction of a more competitive, efficient, sustainable future, giving innovative solutions for the optimization in the productive processes of the entire industry, facilitating the integration to global production chains and promoting sustainable food production.<br /><br /><p class='text-center font-bold'>We look forward to seeing you at AgroTech Mexico 2024.</p>",
+        "description":"<strong>Italian German Exhibition Company</strong> is pleased to invite you to participate in <strong>AgroTech Mexico 2024</strong>, the first B2B exhibition specialized in Industry dedicated to agriculture.<br /><br />Mexican agribusiness has a promising future. However, in order to maintain our competitiveness and become the leaders of this industry globally, it will be necessary to bring agriculture into the digital era.<br /><br />Mexico's great biodiversity is one of the main reasons for the high productivity of this sector, as approximately 13% of the national territory is used as agricultural land, which allows us to harvest close to 200 products in different seasons and seasons of the year. We are the 11th largest food producer in the world and the 7th largest exporter, as well as the 3rd largest food industry in the Americas. Our agri-food products, including avocados, tomatoes, blackberries, green chiles, raspberries, lemons and beef, are consumed in 164 countries with a potential market of 1,353 million people.<br /><br />In addition, our network of 12 trade agreements with preferential access to 52 countries means that our agri-food exports are increasing year after year. During the first half of 2023, the country's agri-food exports amounted to 31.487 billion dollars, while the export of agro-industrial products exceeded 17 billion dollars, 6.74% higher than the same period in 2022.<br /><br />Mexico is today a leading player in this industry, therefore AgroTech Mexico is designed to bring the revolution to the field through the adoption of technologies, Big Data, Artificial Intelligence, Blockchain, Automation, Logistics. allowing to accelerate the construction of a more competitive, efficient, sustainable future, giving innovative solutions for the optimization in the productive processes of the entire industry, facilitating the integration to global production chains and promoting sustainable food production.<br /><br /><p class='text-center font-bold'>We look forward to seeing you at AgroTech Mexico 2024.</p>",
         "team": "Your AgroTech Mexico Team"
     },
     "contact":{
@@ -71,7 +71,7 @@
         "reason_3": "exhibitors",
         "reason_4": "in on-site business (2023).",
         "reason_5": "in value of media coverage.",
-        "reason_6": "Get the most specialized knowledge on Agribusiness 4.0",
+        "reason_6": "Get the most specialized knowledge on Agribusiness",
         "reason_7": "Expand your business network in the most important agricultural area of the country.",
         "reason_8": "Learn about the most innovative equipment and technologies for agriculture and floriculture.",
         "reason_9": "Find the best strategic allies of agricultural products, services and technologies."
