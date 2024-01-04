@@ -7,7 +7,7 @@ const partners = [
     { link: 'https://tecnoagro.com.mx/', src: '/agrotechmexico/img/partner6.webp', alt:'TecnoAgro', width: 200, height: 70 },
     { link: 'https://www.periodicomitierra.mx/', src: '/agrotechmexico/img/partner7.webp', alt:'Periódico mi tierra', width: 200, height: 111 },
     { link: 'https://tierrafertil.com.mx/', src: '/agrotechmexico/img/partner8.webp', alt:'Tierra fertil multimedia agropecuaria', width: 200, height: 87 },
-    { link: 'https://greentology.life/', src: '/agrotechmexico/img/partner9.webp', alt:'Greentology', width: 200, height: 55 },
+    { link: 'https://greentology.life/', src: '/agrotechmexico/img/GreentologyV2.webp', alt:'Greentology', width: 200, height: 55 },
     { link: 'https://globalindustries.mx/', src: '/agrotechmexico/img/partner10.webp', alt:'Global Industries', width: 200, height: 87 },
     { link: 'https://dplnews.com/', src: '/agrotechmexico/img/partner11.webp', alt:'dpl news', width: 200, height: 76 },
     { link: 'https://www.cosmos.com.mx/', src: '/agrotechmexico/img/partner12.webp', alt:'Online Cosmos plataforma digital b2b', width: 200, height: 88 },
