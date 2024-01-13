@@ -1,9 +1,17 @@
-const toolkit = [
-    { src: '/agrotechmexico/img/banner_web_es.webp', alt:'Banner web', title:'Banner web', width: 360, height: 225 },
-    { src: '/agrotechmexico/img/keyvisual.webp', alt:'KeyVisual', title:'KeyVisual', width: 360, height: 158 },
+const toolkit_es = [
+    { src: '/agrotechmexico/img/web_es.webp', alt:'Banner web', title:'Banner web', width: 360, height: 225 },
+    { src: '/agrotechmexico/img/key_visual_agrotech_es_v2.webp', alt:'KeyVisual', title:'KeyVisual', width: 360, height: 158 },
     { src: '/agrotechmexico/img/facebook_es.webp', alt:'Facebook', title:'Facebook', width: 360, height: 158 },
     { src: '/agrotechmexico/img/twitter_es.webp', alt:'Twitter', title:'Twitter', width: 360, height: 120 },
-    { src: '/agrotechmexico/img/linkedIn_es.webp', alt:'Linkedin', title:'Linkedin', width: 360, height: 90 }    
+    { src: '/agrotechmexico/img/linkedln_es.webp', alt:'Linkedin', title:'Linkedin', width: 360, height: 90 }    
+]
+
+const toolkit_en = [
+    { src: '/agrotechmexico/img/web_en.webp', alt:'Banner web', title:'Banner web', width: 360, height: 225 },
+    { src: '/agrotechmexico/img/key_visual_agrotech_en_v2.webp', alt:'KeyVisual', title:'KeyVisual', width: 360, height: 158 },
+    { src: '/agrotechmexico/img/facebook_en.webp', alt:'Facebook', title:'Facebook', width: 360, height: 158 },
+    { src: '/agrotechmexico/img/twitter_en.webp', alt:'Twitter', title:'Twitter', width: 360, height: 120 },
+    { src: '/agrotechmexico/img/linkedln_en.webp', alt:'Linkedin', title:'Linkedin', width: 360, height: 90 }    
 ]
 
 const gallery2023 = [
@@ -29,4 +37,4 @@ const gallery2023 = [
     { src: '/agrotechmexico/img/galeria2023-20.webp', alt:'Agrotech 2023 galeria-20', width: 360}
 ]
 
-export {toolkit, gallery2023}
+export {toolkit_es, toolkit_en, gallery2023}

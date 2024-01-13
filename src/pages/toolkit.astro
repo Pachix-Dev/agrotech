@@ -1,16 +1,18 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import { changeLanguage } from "i18next";
-import { toolkit } from "../constants_gallery";
+import i18next, { changeLanguage } from "i18next";
+import { toolkit_es, toolkit_en } from "../constants_gallery";
 import LightBox from "../components/LightBox.jsx";
 
 changeLanguage("es");
 ---
 
 <Layout title="Rates Agrotech">
-  <section class="container mx-auto pt-10 mb-10">
+  <section class="container mx-auto lg:w-[1050px] p-8 pt-10 mb-10">
     <h1 class="font-extrabold text-4xl text-agro-green text-center">TOOLKIT</h1>
-    <LightBox images={toolkit} client:visible />
+    <LightBox images={i18next.language === 'en'
+    ? toolkit_es
+    : toolkit_en } client:visible />
   </section>
 </Layout>
  ../components/LightBox.jsx
