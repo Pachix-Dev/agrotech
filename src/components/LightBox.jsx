@@ -58,11 +58,11 @@ export default function LightGallery({ images }) {
 
   return (
     <div className='mt-10 grid gap-4'>
-      <div className='grid gap-4 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2'>
+      <div className='grid gap-4 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4'>
         {getPaginatedImages().map((image, index) => (
           <div key={index} className='cursor-pointer'>
             <img
-              className='h-auto w-full object-cover rounded-lg'
+              className='h-60 w-full object-cover rounded-lg'
               src={image.src}
               alt={image.alt}
               onClick={() => openLightbox(index)}
