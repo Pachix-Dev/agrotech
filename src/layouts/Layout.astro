@@ -1,27 +1,27 @@
 ---
-import Header from "../components/Header.astro";
+import Header from '../components/Header.astro'
 interface Props {
-  title: string;
+  title: string
 }
 
-const { title } = Astro.props;
+const { title } = Astro.props
 
-import i18next, { t } from "i18next";
-import WidgetSocial from "../components/WidgetSocial.astro";
-import { HeadHrefLangs } from "astro-i18next/components";
-import Footer from "../components/Footer.astro";
+import i18next, { t } from 'i18next'
+import WidgetSocial from '../components/WidgetSocial.astro'
+import { HeadHrefLangs } from 'astro-i18next/components'
+import Footer from '../components/Footer.astro'
 ---
 
 <!doctype html>
 <html lang={i18next.language}>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="description" content="Astro description" />
-    <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/png" href="/favicon.png" />
-    <meta name="generator" content={Astro.generator} />
+    <meta charset='UTF-8' />
+    <meta name='description' content='Astro description' />
+    <meta name='viewport' content='width=device-width' />
+    <link rel='icon' type='image/png' href='/agrotechmexico/favicon.png' />
+    <meta name='generator' content={Astro.generator} />
     <title>{title}</title>
-    <meta name="description" content={t("site.description")} />
+    <meta name='description' content={t('site.description')} />
     <HeadHrefLangs />
   </head>
   <body>
@@ -48,7 +48,7 @@ import Footer from "../components/Footer.astro";
     </style>
     <script
       is:inline
-      src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.0/flowbite.min.js"
+      src='https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.0/flowbite.min.js'
     ></script>
   </body>
 </html>

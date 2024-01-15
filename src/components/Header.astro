@@ -183,8 +183,21 @@ const base = lang === 'es' ? '/agrotechmexico' : `/agrotechmexico/${lang}`
                   <a href={`${base}/toolkit`} class='block px-4 py-2'>Toolkit</a
                   >
                 </li>
+                <li>
+                  <a
+                    href={`${base}/special-hotels-rates`}
+                    class='block px-4 py-2'>{t('hotels.title')}</a
+                  >
+                </li>
               </ul>
             </div>
+          </li>
+          <li>
+            <a
+              href={`${base}/conferences-program`}
+              class='block py-2 pl-3 pr-4 rounded md:bg-transparent md:p-0'
+              aria-current='page'>{t('menu.program')}</a
+            >
           </li>
           <li>
             <button

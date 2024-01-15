@@ -24,7 +24,8 @@
             }
 
         },
-        "gallery": "GALERÍA"     
+        "gallery": "GALERÍA",
+        "program": "CONFERENCIAS"     
     },
     "home":{
         "title" : "LA EXHIBICIÓN PARA NEGOCIOS DE LA AGROINDUSTRIA",
@@ -47,7 +48,8 @@
         "suscribe_title":"ENTÉRATE DE LAS NOVEDADES EN AGRICULTURA",
         "description_suscribe":"Recibe las últimas tendencias de la Industria en la agricultura y valiosas actualizaciones sobre cómo aprovechar al máximo tu experiencia en AgroTech México 2024.",
         "suscribe_label": "Suscríbase a nuestro boletín",
-        "suscribe_button": "Suscribirse"
+        "suscribe_button": "Suscribirse",
+        "testimonials": "Testimonios"
     },
     "about":{
         "description":"Para <strong>Italian German Exhibition Company</strong> es un placer invitarlo a participar en AgroTech México 2024, la feria dedicada a impulsar el campo mexicano hacia un futuro más sostenible y eficiente, aprovechando las innovaciones en conocimientos, maquinaria, equipo y prácticas de cultivo.<br /><br />La agroindustria mexicana tiene un futuro prometedor. No obstante, para poder mantener nuestra competitividad y convertirnos en los líderes de esta industria a nivel global, será necesario impulsar la transformación agrícola.<br /><br />La gran biodiversidad de México es una de las principales causas de la alta productividad de este sector, pues aproximadamente 13 % del territorio nacional se utiliza para producción de cultivo, lo que nos permite cosechar cerca de 200 productos en diferentes estaciones y temporadas del año. Somos el 11° productor de alimentos del mundo y el 7° exportador mundial, así como la 3° industria alimentaria más grande del continente americano. Nuestros productos agroalimentarios, entre los que destacan el aguacate, el tomate, la zarzamora, el chile verde, la frambuesa, el limón y la carne de bovino se consumen en 164 países con un mercado potencial de 1,353 millones de personas.<br /><br />Aunado a eso, nuestra red de 12 tratados comerciales con acceso preferencial a 52 países, hacen que nuestras exportaciones agroalimentarias aumenten año con año. Durante el primer semestre del 2023, en nuestro país, las exportaciones de este sector ascendieron a los 31,487 millones de dólares; mientras que, la exportación de productos agroindustriales superó los 17 mil millones de dólares, un 6.74 % superior al mismo periodo del 2022.<br /><br />México es hoy un jugador líder en esta industria, por ello AgroTech México está diseñada para llevar la revolución al campo mediante la adopción de las últimas tendencias en Maquinaria y Equipos, Agrotecnología, Insumos Agrícolas, Invernaderos y Manejo del Agua, permitiendo acelerar la construcción de un futuro más competitivo, eficaz, sostenible, dando soluciones innovadoras para la optimización en los procesos productivos de toda la industria, facilitar la integración a las cadenas productivas globales y promover la producción sostenible de alimentos.<br /><br /><p class='text-center font-bold'>¡Los esperamos en AgroTech México 2024!</p>",
@@ -117,5 +119,30 @@
     },
     "widgetsocial":{        
         "description": "Evento celebrado simultáneamente con Agrotech"
+    },
+    "program":{
+        "title":"Programa de conferencias",
+        "description":"Proximamente..."
+    },
+    "hotels":{
+        "title": "Tarifas especiales en hoteles",
+        "description": "Nos complace anunciar que hemos asegurado tarifas preferenciales en hoteles de calidad para que tu experiencia sea aún más cómoda y accesible.<br /><br />Ubicados estratégicamente alrededor del lugar del evento, estos hoteles ofrecen no solo comodidad, sino también la oportunidad de sumergirte completamente en la atmósfera del evento. Hemos negociado tarifas especiales para nuestros asistentes, asegurándonos de que tu estancia sea tan inolvidable como el propio evento.",
+        "rate": "Tarifa desde: ",
+        "code": "codigo de reserva: ",
+        "book": "Reservar",
+        "taxes": "Impuestos",
+        "time" : "min",
+        "place" : "El hotel se encuentra justo en frente",
+        "about_gdl": "Acerca de Guadalajara",
+        "description_gdl":"Guadalajara, la perla del occidente mexicano, se destaca como una ciudad llena de encanto y diversidad. Conocida como la 'Perla Tapatía', Guadalajara combina la rica herencia histórica de México con una modernidad vibrante. <br /><br />La ciudad es famosa por su arquitectura colonial, plazas pintorescas y una atmósfera que refleja la calidez de su gente. Al caminar por el centro histórico, te sumergirás en calles empedradas que llevan a impresionantes iglesias, como la Catedral de Guadalajara y la Basílica de Zapopan. La cultura mexicana se encuentra en cada rincón, desde los mercados tradicionales hasta los coloridos murales que adornan las calles.",
+        "restaurants": "Restaurantes",
+        "restaurants_desc": "Guadalajara es conocida por su cocina tradicional mexicana, que se puede disfrutar en los numerosos restaurantes de la ciudad. Los platos típicos incluyen tortas ahogadas, pozole, birria y carne en su jugo. La ciudad también ofrece una amplia variedad de restaurantes internacionales, que van desde comida italiana hasta japonesa.abr <br />Para aquellos que buscan experiencias gourmet, la ciudad cuenta con elegantes restaurantes que ofrecen menús sofisticados y una selección cuidadosa de vinos. Ya sea que te encuentres explorando los barrios históricos o las áreas más modernas de la ciudad, los restaurantes en Guadalajara te invitan a un festín de sabores auténticos y emocionantes. En muchos lugares, también podrás disfrutar de la música en vivo, creando una experiencia gastronómica única que captura la esencia vibrante de la ciudad.",
+        "entertainment": "Entretenimiento",
+        "entertainment_desc": "Guadalajara es una ciudad que ofrece una amplia variedad de actividades de entretenimiento. Desde museos hasta galerías de arte, la ciudad cuenta con una gran cantidad de lugares que celebran la cultura mexicana. <br /><br />Los amantes de la música pueden disfrutar de una variedad de conciertos y festivales, que van desde música clásica hasta rock y jazz. La ciudad también es conocida por su escena de vida nocturna, que ofrece una variedad de bares y clubes para todos los gustos. <br /><br />Para aquellos que buscan un poco de relajación, Guadalajara cuenta con una gran cantidad de spas y centros de bienestar, que ofrecen una variedad de tratamientos y masajes. La ciudad también cuenta con una gran cantidad de parques y áreas verdes, que ofrecen un escape de la vida urbana.",
+        "money": "Moneda",
+        "money_desc": "Si estás planificando tu visita a Guadalajara, es importante conocer la moneda oficial de México, que es el peso mexicano (MXN). El peso mexicano se utiliza en transacciones diarias, y encontrarás billetes y monedas de diferentes denominaciones.",
+        "link_currency": "Haga clic aquí para utilizar el conversor de moneda."
+
+
     }
 }
