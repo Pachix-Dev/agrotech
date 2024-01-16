@@ -69,22 +69,24 @@ changeLanguage("en");
                   </a>
                 )}
               </div>
-              <ul class='w-full text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg'>
+              <ul class='w-full text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg border-b-0'>
                 <li class='w-full px-4 py-2 border-b border-gray-200 rounded-t-lg'>
-                  {t('hotels.rate')}
+                  {t('hotels.rate')} {hotel.rate} + {t('hotels.taxes')}
                 </li>
-                <li class='w-full px-4 py-2 border-b border-gray-200'>
+                <li class='w-full px-4 py-2 border-b border-gray-200 break-words'>
                   {hotel.email}
                 </li>
-                <li class='w-full px-4 py-2 border-b border-gray-200'>
+                {/*<li class='w-full px-4 py-2 border-b border-gray-200'>
                   {t('hotels.code')}
-                </li>
-                <li class='w-full px-4 py-2 rounded-b-lg'>
+                  <strong>{hotel.code}</strong>
+                </li> */}
+                <li class='w-full px-4 py-2 rounded-b-lg flex '>
                   <img src='/agrotechmexico/walk_icon.webp' width={20} />
+                  <span class='ps-1'>{hotel.time_walk} min</span>
                 </li>
-                <li class='w-full px-4 py-2 rounded-b-lg'>
+                <li class='w-full px-4 py-2 flex'>
                   <img src='/agrotechmexico/car_icon.webp' width={20} />
-                  {hotel.time_drive}
+                  <span class='ps-1'>{hotel.time_drive} min</span>
                 </li>
               </ul>
             </div>
