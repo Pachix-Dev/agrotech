@@ -101,11 +101,49 @@ const base = lang === 'es' ? '/agrotechmexico' : `/agrotechmexico/${lang}`
           class='flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0'
         >
           <li>
-            <a
-              href={`${base}/about`}
-              class='block py-2 pl-3 pr-4 rounded md:bg-transparent md:p-0'
-              aria-current='page'>{t('menu.aboutUS')}</a
+            <button
+              id='dropdownExhibitors'
+              data-dropdown-toggle='dropdownNavbar'
+              class='flex items-center justify-between w-full py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto'
             >
+              {t('menu.aboutUS.title')}
+              <svg
+                class='w-2.5 h-2.5 ml-2.5'
+                aria-hidden='true'
+                xmlns='http://www.w3.org/2000/svg'
+                fill='none'
+                viewBox='0 0 10 6'
+              >
+                <path
+                  stroke='currentColor'
+                  stroke-linecap='round'
+                  stroke-linejoin='round'
+                  stroke-width='2'
+                  d='m1 1 4 4 4-4'></path>
+              </svg>
+            </button>
+            <div
+              id='dropdownNavbar'
+              class='dropdown z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44'
+            >
+              <ul
+                class='py-2 text-sm text-gray-700'
+                aria-labelledby='dropdownLargeButton'
+              >
+                <li>
+                  <a href={`${base}/about`} class='block px-4 py-2'
+                    >{t('menu.aboutUS.subMenu.option1')}</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href={`${base}/about-expo-guadalajara`}
+                    class='block px-4 py-2'
+                    >{t('menu.aboutUS.subMenu.option2')}</a
+                  >
+                </li>
+              </ul>
+            </div>
           </li>
           <li>
             <button

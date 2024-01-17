@@ -1,0 +1,18 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { t, changeLanguage } from "i18next";
+
+changeLanguage("en");
+---
+
+<Layout title='About Expo Guadalajara'>
+  <div class='mt-10 container mx-auto mb-10'>
+    <img
+      src='/agrotechmexico/Expo-Guadalajara-1.webp'
+      alt='Expo Guadalajara'
+      class='w-8/12'
+    />
+
+    <p class='mt-10' set:html={t('about_expo_guadalajara')} />
+  </div>
+</Layout>

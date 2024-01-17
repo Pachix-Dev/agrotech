@@ -4,7 +4,13 @@
         "description":"Our exhibition is designed for the agribusiness sector comprising the entire value chain, from production, industrialization and marketing of agricultural products, to increase its specialization and competitiveness by moving towards Agribusiness through the adoption of technologies such as Artificial Intelligence, Big Data, Blockchain, Automation, Drones, Logistics, and many more."
     },
     "menu":{
-        "aboutUS":"ABOUT US",
+        "aboutUS":{
+            "title":"ABOUT US",
+            "subMenu": {
+                "option1":"About AgroTech Mexico",                
+                "option2":"About Expo Guadalajara"
+            }
+        },
         "option2": {
             "title":"EXHIBITORS",
             "subMenu": {
@@ -133,5 +139,6 @@
         "money": "Currency",
         "money_desc": "If you are planning your visit to Guadalajara, it is important to know the official currency of Mexico, which is the Mexican peso (MXN). The Mexican peso is used in daily transactions, and you will find bills and coins of different denominations.",
         "link_currency": "Click here to use the currency converter."
-    }
+    },
+    "about_expo_guadalajara": "Expo Guadalajara is the most dynamic, versatile and important convention and exhibition center in the country and with a projection in Latin America. It is the ideal space to meet the demands of any exhibition, conference or event.<br /><br />It offers 32 spaces with the possibility of modularizing 57 rooms for all types of events; distributed on two levels that include 15 large entrances to the exhibition floor, functional lobbies that allow traffic of up to 60,000 people daily, a forum for musical, cultural and social events and an Open Expo for sporting events, outdoor exhibitions and concerts. In addition, it has 1,912 parking spaces.<br /><br />It has Internet service through WiFi with a bandwidth ranging from 100 Mbps to 1,000 Mbps and the capacity to support up to 28,000 concurrent connections in the facility. .<br /><br />Expo Guadalajara is the only fairground in Mexico with its own foundation, the result of its commitment to society.<br /><br />Expo Guadalajara Foundation fulfills two primary objectives: promoting social development in Jalisco and promote the CSR (Corporate Social Responsibility) culture."
 }

@@ -4,7 +4,13 @@
         "description":"Nuestra exhibición está diseñada para que el sector agroindustrial que comprende toda la cadena de valor, desde la producción, la industrialización y la comercialización de sector agroalimentario, incremente su especialización y competitividad al transitar hacia la Agroindustria mediante la adopción de tecnologías como la Inteligencia Artificial, Big Data, Blockchain, Automatización, Drones, Logística, y muchas más."
     },
     "menu":{
-        "aboutUS":"QUIÉNES SOMOS",
+        "aboutUS":{
+            "title":"QUÍENES SOMOS",
+            "subMenu": {
+                "option1":"Acerca de AgroTech Mexico",                
+                "option2":"Acerca de Expo Guadalajara"
+            }
+        },
         "option2": {
             "title":"EXPOSITORES",
             "subMenu": {
@@ -144,5 +150,6 @@
         "link_currency": "Haga clic aquí para utilizar el conversor de moneda."
 
 
-    }
+    },
+    "about_expo_guadalajara": "Expo Guadalajara es el centro de convenciones y exposiciones más dinámico, versátil e importante del país y con una proyección en Latinoamérica. Es el espacio ideal para cumplir las exigencias de cualquier exposición, congreso o evento.<br /><br />Ofrece 32 espacios con la posibilidad de modular a 57 salones para todo tipo de eventos; distribuidos en dos niveles que incluyen 15 amplios accesos al piso de exhibición, funcionales vestíbulos que permiten el tráfico de hasta 60,000 personas diarias, un foro para eventos musicales, culturales y sociales y una Expo Abierta para eventos deportivos, exposiciones al aire libre y conciertos. Además, cuenta con 1,912 cajones de estacionamiento.<br /><br />Cuenta con servicio de Internet por medio de WiFi con un ancho de banda que va desde 100 Mbps hasta 1,000 Mbps y capacidad para soportar hasta 28,000 conexiones concurrentes en el recinto.<br /><br />Expo Guadalajara es el único recinto ferial en México con fundación propia, resultado de su compromiso con la sociedad.<br /><br />Fundación Expo Guadalajara cumple dos objetivos primordiales: impulsar el desarrollo social en Jalisco y fomentar la cultura RSE (Responsabilidad Social Empresarial)."
 }
