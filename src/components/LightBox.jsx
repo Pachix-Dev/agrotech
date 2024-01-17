@@ -65,7 +65,7 @@ export default function LightGallery({ images }) {
               className='h-60 w-full object-cover rounded-lg'
               src={image.src}
               alt={image.alt}
-              onClick={() => openLightbox(index)}
+              onClick={() => openLightbox(image.id)}
             />
             <p className='text-center font-bold text-xl'>{image.title}</p>
           </div>
@@ -125,7 +125,7 @@ export default function LightGallery({ images }) {
                 className={`cursor-pointer w-20 h-20 mx-1 ${
                   index === currentImage ? 'border-2 border-blue-500' : ''
                 }`}
-                onClick={() => handleThumbnailClick(index)}
+                onClick={() => handleThumbnailClick(thumb.id)}
               >
                 <img
                   className='w-full h-full rounded object-cover'
