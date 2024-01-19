@@ -10,6 +10,7 @@ import partytown from "@astrojs/partytown";
 export default defineConfig({
   site: "https://hfmexico.mx/agrotechmexico/",
   base: "/agrotechmexico",
+  includes: ['src/**/*.astro', 'src/**/*.js'],
   packageOptions: {
     // Set type to module for ECMAScript module support
     type: 'module',

@@ -1,13 +1,13 @@
 ---
 import i18next, { changeLanguage, t } from 'i18next'
 import Layout from '../layouts/Layout.astro'
-import Marquee from '../components/Marquee.astro'
 import { partners, exhibitor, exhibitor2 } from '../logos_partners'
 import { Suscribe } from '../components/Suscribe'
 import Categories from '../components/Categories.astro'
 import { gallery2023 } from '../constants_gallery'
 import LightBox from '../components/LightBox.jsx'
 import Testimonials from '../components/Testimonials.astro'
+import { MarqueeReact } from '../components/MarqueeReact.jsx'
 
 changeLanguage('es')
 ---
@@ -297,10 +297,13 @@ changeLanguage('es')
           </a>
         </div>
       </div>
-      <Marquee partners={exhibitor} title={t('home.exhibitor')} />
-      <Marquee partners={exhibitor2} title='' />
-
-      <Marquee partners={partners} title='Media Partners' />
+      <p class='mt-20 font-extrabold text-3xl text-center'>
+        {t('home.exhibitor')}
+      </p>
+      <MarqueeReact images={exhibitor} direction='left' client:only />
+      <MarqueeReact images={exhibitor2} client:only />
+      <p class='mt-20 font-extrabold text-3xl text-center'>Media partner</p>
+      <MarqueeReact images={partners} direction='left' client:only />
     </section>
     <Suscribe
       title={t('home.suscribe_title')}
