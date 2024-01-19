@@ -1,31 +1,31 @@
 ---
 interface Props {
   partners: Array<{
-    link: string;
-    src: string;
-    alt: string;
-    width: number;
-    height: number;
-  }>;
-  title: string;
+    link: string
+    src: string
+    alt: string
+    width: number
+    height: number
+  }>
+  title: string
 }
 
-const { partners, title } = Astro.props as Props;
+const { partners, title } = Astro.props as Props
 ---
 
-<section id="suscribe" class="container mx-auto mt-10 pt-10 enable-animation">
-  <p class="text-center font-extrabold text-3xl">{title}</p>
-  <div class="marquee marquee--hover-pause">
-    <div class="bg-gradient-left"></div>
-    <div class="bg-gradient-right"></div>
-    <ul class="marquee__content">
+<section id='suscribe' class='container mx-auto mt-10 pt-10 enable-animation'>
+  <p class='text-center font-extrabold text-3xl'>{title}</p>
+  <div class='marquee marquee--hover-pause'>
+    <div class='bg-gradient-left'></div>
+    <div class='bg-gradient-right'></div>
+    <ul class='marquee__content'>
       {
         partners?.map((partner) => (
           <li>
             <a
               href={partner.link}
-              target="_blank"
-              rel="noreferrer"
+              target='_blank'
+              rel='noreferrer'
               aria-label={partner.alt}
             >
               <img
@@ -33,21 +33,21 @@ const { partners, title } = Astro.props as Props;
                 alt={partner.alt}
                 width={partner.width}
                 height={partner.height}
-                loading="lazy"
+                loading='lazy'
               />
             </a>
           </li>
         ))
       }
     </ul>
-    <ul class="marquee__content">
+    <ul class='marquee__content'>
       {
         partners?.map((partner) => (
           <li>
             <a
               href={partner.link}
-              target="_blank"
-              rel="noreferrer"
+              target='_blank'
+              rel='noreferrer'
               aria-label={partner.alt}
             >
               <img
@@ -55,7 +55,7 @@ const { partners, title } = Astro.props as Props;
                 alt={partner.alt}
                 width={partner.width}
                 height={partner.height}
-                loading="lazy"
+                loading='lazy'
               />
             </a>
           </li>
@@ -75,7 +75,7 @@ const { partners, title } = Astro.props as Props;
   }
 
   .bg-gradient-left {
-    content: "";
+    content: '';
     position: absolute;
     top: 0;
     bottom: 0;
@@ -85,7 +85,7 @@ const { partners, title } = Astro.props as Props;
     z-index: 2;
   }
   .bg-gradient-right {
-    content: "";
+    content: '';
     position: absolute;
     top: 0;
     bottom: 0;

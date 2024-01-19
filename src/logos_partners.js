@@ -14,4 +14,23 @@ const partners = [
     { link: 'https://www.agrosintesis.com/home', src: '/agrotechmexico/img/agro_sintesis.webp', alt:'Agrosíntesis', width: 100, height: 100 },
     { link: 'https://www.horticultivos.com/home', src: '/agrotechmexico/img/horticultivos.webp', alt:'Horticultivos', width: 100, height: 100 },
 ]
-export {partners}
+
+const exhibitor = [
+    { link: 'https://berrendo.com', src: '/agrotechmexico/img/berrendo.webp', alt:'Berrendo', width: 150, height: 73 },
+    { link: 'https://agtrac.mx/', src: '/agrotechmexico/img/agtrac.webp', alt:'agtrac', width: 200, height: 57 },
+    { link: 'https://www.inverca.mx/', src: '/agrotechmexico/img/inverca.webp', alt:'inverca', width: 150, height: 118 },
+    { link: 'https://www.swissmex.com.mx/', src: '/agrotechmexico/img/swissmex.webp', alt:'swissmex', width: 200, height: 31},
+    { link: 'https://www.himoinsa.mx/', src: '/agrotechmexico/img/himoinsa.webp', alt:'Himoinsa', width: 200, height: 100 },
+    { link: 'https://lubmesam.com.mx/', src: '/agrotechmexico/img/lubmesamL.webp', alt:'Lubing', width: 250, height: 26 },
+    { link: 'https://www.samsara.com/mx', src: '/agrotechmexico/img/samsara.svg', alt:'Samsara', width: 200, height: 48 }    
+]
+
+const  exhibitor2 = [
+    { link: 'https://afko.com.tr/', src: '/agrotechmexico/img/afko.webp', alt:'afko', width: 150, height: 59 },
+    { link: 'https://www.disruptivepackaging.com/', src: '/agrotechmexico/img/disruptivepackage.webp', alt:'disruptivepackage', width: 180, height: 109 },
+    { link: 'https://www.tempocom.com/', src: '/agrotechmexico/img/tempco.webp', alt:'tempco', width: 200, height: 40 },
+    { link: 'https://www.kingspan.com/mx/es/', src: '/agrotechmexico/img/kingspan.webp', alt:'Kingspan', width: 200, height: 97 },
+    { link: 'https://www.transtecno.com/mx/', src: '/agrotechmexico/img/transtecno.webp', alt:'Transtecno', width: 200, height: 63 },
+    { link: 'https://www.sperantus.com/?lang=en', src: '/agrotechmexico/img/sperantus.webp', alt:'sperantus', width: 200, height: 96 }
+]
+export {partners, exhibitor, exhibitor2}

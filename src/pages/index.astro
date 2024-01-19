@@ -1,15 +1,15 @@
 ---
-import i18next, { changeLanguage, t } from "i18next";
-import Layout from "../layouts/Layout.astro";
-import Marquee from "../components/Marquee.astro";
-import { partners } from "../logos_partners";
-import { Suscribe } from "../components/Suscribe";
-import Categories from "../components/Categories.astro";
-import { gallery2023 } from "../constants_gallery";
-import LightBox from "../components/LightBox.jsx";
-import Testimonials from "../components/Testimonials.astro";
+import i18next, { changeLanguage, t } from 'i18next'
+import Layout from '../layouts/Layout.astro'
+import Marquee from '../components/Marquee.astro'
+import { partners, exhibitor, exhibitor2 } from '../logos_partners'
+import { Suscribe } from '../components/Suscribe'
+import Categories from '../components/Categories.astro'
+import { gallery2023 } from '../constants_gallery'
+import LightBox from '../components/LightBox.jsx'
+import Testimonials from '../components/Testimonials.astro'
 
-changeLanguage("es");
+changeLanguage('es')
 ---
 
 <Layout title='Agrotech'>
@@ -247,6 +247,35 @@ changeLanguage("es");
         </h1>
         <LightBox images={gallery2023} client:visible />
       </div>
+      <div class='mt-20 container mx-auto'>
+        <h1 class='font-extrabold text-3xl text-center'>
+          {t('home.strategic_allies')}
+        </h1>
+        <div class='sm:grid gap-2 grid-cols-2 place-items-center'>
+          <a
+            href='https://www.centrouniversitarioceickor.edu.mx/home/'
+            target='_blank'
+          >
+            <img
+              class='mt-5'
+              src='/agrotechmexico/img/ceickor.webp'
+              width='200'
+              height='111'
+            />
+          </a>
+          <a href='https://futureagexpo.com.au/exhibitors' target='_blank'>
+            <img
+              class='mt-5'
+              src='/agrotechmexico/img/FutureAg.webp'
+              width='200'
+              height='111'
+            />
+          </a>
+        </div>
+      </div>
+      <Marquee partners={exhibitor} title={t('home.exhibitor')} />
+      <Marquee partners={exhibitor2} title='' />
+
       <Marquee partners={partners} title='Media Partners' />
     </section>
     <Suscribe
