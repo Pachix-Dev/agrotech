@@ -247,8 +247,32 @@ changeLanguage('es')
         </h1>
         <LightBox images={gallery2023} client:visible />
       </div>
-      <div class='mt-20 container mx-auto'>
-        <h1 class='font-extrabold text-3xl text-center'>
+      <h1 class='mt-20 font-extrabold text-3xl text-center'>
+        {t('home.organized_by')}
+      </h1>
+      <div class='mt-10 container mx-auto'>
+        <div class='sm:flex grid gap-8 justify-center'>
+          <a href='https://www.iegexpo.it/en/' target='_blank' rel='noreferrer'>
+            <img
+              src='/agrotechmexico/italianExhibitionGroup.webp'
+              width={150}
+              height={82}
+              loading='lazy'
+              alt='italianExhibitionGroup'
+            />
+          </a>
+
+          <a href='https://www.messe.de/en/' target='_blank' rel='noreferrer'>
+            <img
+              src='/agrotechmexico/deutscheMesse.webp'
+              width={250}
+              height={54}
+              loading='lazy'
+              alt='deutscheMesse'
+            />
+          </a>
+        </div>
+        <h1 class='mt-20 font-extrabold text-3xl text-center'>
           {t('home.strategic_allies')}
         </h1>
         <div class='sm:grid gap-2 grid-cols-2 place-items-center'>
