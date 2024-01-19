@@ -34,6 +34,7 @@ const { partners, title } = Astro.props as Props
                 width={partner.width}
                 height={partner.height}
                 loading='lazy'
+                style={{ maxWidth: '100%' }}
               />
             </a>
           </li>
@@ -56,6 +57,7 @@ const { partners, title } = Astro.props as Props
                 width={partner.width}
                 height={partner.height}
                 loading='lazy'
+                style={{ maxWidth: '100%' }}
               />
             </a>
           </li>
@@ -141,6 +143,16 @@ const { partners, title } = Astro.props as Props
     }
     to {
       transform: translateX(0);
+    }
+  }
+  @media screen and (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    .marquee {
+      --gap: 1rem;
+    }
+
+    .enable-animation .marquee__content {
+      animation: scroll 20s linear infinite; /* Adjust the animation duration */
     }
   }
 </style>
