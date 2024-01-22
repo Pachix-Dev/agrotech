@@ -31,6 +31,8 @@ const  exhibitor2 = [
     { link: 'https://www.tempocom.com/', src: '/agrotechmexico/img/tempco.webp', alt:'tempco', width: 200, height: 40 },
     { link: 'https://www.kingspan.com/mx/es/', src: '/agrotechmexico/img/kingspan.webp', alt:'Kingspan', width: 200, height: 97 },
     { link: 'https://www.transtecno.com/mx/', src: '/agrotechmexico/img/transtecno.webp', alt:'Transtecno', width: 200, height: 63 },
-    { link: 'https://www.sperantus.com/?lang=en', src: '/agrotechmexico/img/sperantus.webp', alt:'sperantus', width: 200, height: 96 }
+    { link: 'https://www.sperantus.com/?lang=en', src: '/agrotechmexico/img/sperantus.webp', alt:'sperantus', width: 200, height: 96 },
+    { link: 'https://aersa.net/', src: '/agrotechmexico/img/aersa.webp', alt:'aersa', width: 120, height: 120 }
 ]
-export {partners, exhibitor, exhibitor2}
+export {partners, exhibitor, exhibitor2
+}
