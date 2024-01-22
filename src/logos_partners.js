@@ -22,7 +22,8 @@ const exhibitor = [
     { link: 'https://www.swissmex.com.mx/', src: '/agrotechmexico/img/swissmex.webp', alt:'swissmex', width: 200, height: 31},
     { link: 'https://www.himoinsa.mx/', src: '/agrotechmexico/img/himoinsa.webp', alt:'Himoinsa', width: 200, height: 100 },
     { link: 'https://lubmesam.com.mx/', src: '/agrotechmexico/img/lubmesamL.webp', alt:'Lubing', width: 250, height: 26 },
-    { link: 'https://www.samsara.com/mx', src: '/agrotechmexico/img/samsara.svg', alt:'Samsara', width: 200, height: 48 }    
+    { link: 'https://www.samsara.com/mx', src: '/agrotechmexico/img/samsara.svg', alt:'Samsara', width: 200, height: 48 },
+    { link: 'https://www.toro.com/es-mx/agriculture', src: '/agrotechmexico/img/torocount.webp', alt:'Toro count on it', width: 200, height: 42 }
 ]
 
 const  exhibitor2 = [
@@ -32,7 +33,7 @@ const  exhibitor2 = [
     { link: 'https://www.kingspan.com/mx/es/', src: '/agrotechmexico/img/kingspan.webp', alt:'Kingspan', width: 200, height: 97 },
     { link: 'https://www.transtecno.com/mx/', src: '/agrotechmexico/img/transtecno.webp', alt:'Transtecno', width: 200, height: 63 },
     { link: 'https://www.sperantus.com/?lang=en', src: '/agrotechmexico/img/sperantus.webp', alt:'sperantus', width: 200, height: 96 },
-    { link: 'https://aersa.net/', src: '/agrotechmexico/img/aersa.webp', alt:'aersa', width: 120, height: 120 }
+    { link: 'https://aersa.net/', src: '/agrotechmexico/img/aersa.webp', alt:'aersa', width: 120, height: 120 },    
+    { link: 'https://www.waderain.com/', src: '/agrotechmexico/img/waderain.webp', alt:'wade rain irrigation systems', width: 200, height: 61}
 ]
-export {partners, exhibitor, exhibitor2
-}
+export {partners, exhibitor, exhibitor2}
