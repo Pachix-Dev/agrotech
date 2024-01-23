@@ -13,6 +13,7 @@ const partners = [
     { link: 'https://issuu.com/giganteagroalimentario', src: '/agrotechmexico/img/partner13.webp', alt:'Agro Orgánico', width: 200, height: 81 },
     { link: 'https://www.agrosintesis.com/home', src: '/agrotechmexico/img/agro_sintesis.webp', alt:'Agrosíntesis', width: 100, height: 100 },
     { link: 'https://www.horticultivos.com/home', src: '/agrotechmexico/img/horticultivos.webp', alt:'Horticultivos', width: 100, height: 100 },
+    { link: 'https://grupomultimedios.com/', src: '/agrotechmexico/img/multimediosLogo.webp', alt:'Multimedios', width: 200, height: 63}
 ]
 
 const exhibitor = [
