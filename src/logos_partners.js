@@ -10,7 +10,7 @@ const partners = [
     { link: 'https://globalindustries.mx/', src: '/agrotechmexico/img/partner10.webp', alt:'Global Industries', width: 200, height: 87 },
     { link: 'https://dplnews.com/', src: '/agrotechmexico/img/partner11.webp', alt:'dpl news', width: 200, height: 76 },
     { link: 'https://www.cosmos.com.mx/', src: '/agrotechmexico/img/partner12.webp', alt:'Online Cosmos plataforma digital b2b', width: 200, height: 88 },
-    { link: 'https://twitter.com/GiganteAgroa', src: '/agrotechmexico/img/partner13.webp', alt:'Agro Orgánico', width: 200, height: 81 },
+    { link: 'https://issuu.com/giganteagroalimentario', src: '/agrotechmexico/img/partner13.webp', alt:'Agro Orgánico', width: 200, height: 81 },
     { link: 'https://www.agrosintesis.com/home', src: '/agrotechmexico/img/agro_sintesis.webp', alt:'Agrosíntesis', width: 100, height: 100 },
     { link: 'https://www.horticultivos.com/home', src: '/agrotechmexico/img/horticultivos.webp', alt:'Horticultivos', width: 100, height: 100 },
 ]
