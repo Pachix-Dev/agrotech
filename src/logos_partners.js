@@ -1,8 +1,7 @@
 const partners = [
     { link: 'https://www.hollandhousemexico.com/', src: '/agrotechmexico/img/partner1.webp', alt:'Holland House Mexico', width: 200, height: 190 },    
     { link: 'https://www.industriaacuicola.com/nueva_version/', src: '/agrotechmexico/img/partner3.webp', alt:'Industria acuícola', width: 200, height: 65},
-    { link: 'http://divulgacionacuicola.com.mx/', src: '/agrotechmexico/img/partner4.webp', alt:'Divulgación Acuicola', width: 200, height: 124},
-    { link: 'https://www.amrevista.com/', src: '/agrotechmexico/img/partner5.webp', alt:'Agricultura Moderna', width: 200, height: 79 },
+    { link: 'http://divulgacionacuicola.com.mx/', src: '/agrotechmexico/img/partner4.webp', alt:'Divulgación Acuicola', width: 200, height: 124},    
     { link: 'https://tecnoagro.com.mx/', src: '/agrotechmexico/img/partner6.webp', alt:'TecnoAgro', width: 200, height: 70 },
     { link: 'https://www.periodicomitierra.mx/', src: '/agrotechmexico/img/partner7.webp', alt:'Periódico mi tierra', width: 200, height: 111 },
     { link: 'https://tierrafertil.com.mx/', src: '/agrotechmexico/img/partner8.webp', alt:'Tierra fertil multimedia agropecuaria', width: 200, height: 87 },
