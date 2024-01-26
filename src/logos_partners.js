@@ -16,7 +16,6 @@ const partners = [
 ]
 
 const exhibitor = [
-    { link: 'https://berrendo.com', src: '/agrotechmexico/img/berrendo.webp', alt:'Berrendo', width: 150, height: 73 },
     { link: 'https://agtrac.mx/', src: '/agrotechmexico/img/agtrac.webp', alt:'agtrac', width: 200, height: 57 },
     { link: 'https://www.inverca.mx/', src: '/agrotechmexico/img/inverca.webp', alt:'inverca', width: 150, height: 118 },
     { link: 'https://www.swissmex.com.mx/', src: '/agrotechmexico/img/swissmex.webp', alt:'swissmex', width: 200, height: 31},
