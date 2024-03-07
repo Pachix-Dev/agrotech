@@ -12,168 +12,165 @@ import { MarqueeReact } from "../../components/MarqueeReact.jsx";
 changeLanguage("en");
 ---
 
-<Layout title='Agrotech'>
+<Layout title="Agrotech">
   <main>
-    <section class='relative h-screen'>
+    <section class="relative h-screen">
       <video
-        class='absolute w-screen h-screen z-[-1]'
+        class="absolute w-screen h-screen z-[-1]"
         muted
         loop
         autoplay
         playsinline
       >
-        <source src='/agrotechmexico/agrotech-2024.mp4' type='video/mp4' />
+        <source src="/agrotechmexico/agrotech-2024.mp4" type="video/mp4" />
       </video>
-      <div class='flex items-center h-full'>
-        <div class='container mx-auto px-4'>
+      <div class="flex items-center h-full">
+        <div class="mx-auto px-4 text-center flex flex-col justify-center items-center">
           <img
-            src='/agrotechmexico/img/logo_agro_color.webp'
-            alt='Logo Agrotech'
-            class='filter-shadow'
-            width='350'
-            height='77'
+            src="/agrotechmexico/img/logo_agro_color.webp"
+            alt="Logo Agrotech"
+            class="filter-shadow"
+            width="350"
+            height="77"
           />
-          <p class='text-white font-bold home-text-agro text-2xl pt-10'>
-            {t('home.title')}
+          <p class="text-white font-bold home-text-agro text-2xl pt-10">
+            {t("home.title")}
           </p>
-          {
-            /*<p class='text-white font-bold home-text-agro text-2xl pt-2'></p> */
-          }
-          {t('home.event_date')}
+          <p class='text-white font-bold home-text-agro text-2xl pt-2'>{t('home.event_date')}</p> 
+          <img
+            src="/agrotechmexico/img/igecoLogo.webp"
+            alt="Igeco"
+            width="200"
+            height="32"
+            class="filter-shadow pt-16"
+          />
         </div>
-        <img
-          src='/agrotechmexico/img/igecoLogo.webp'
-          alt='Igeco'
-          width='200'
-          height='32'
-          class='filter-shadow pt-16'
-        />
       </div>
     </section>
   </main>
   <article>
     <div
-      class='container mx-auto mt-10 p-4 grid grid-cols-1 md:grid-cols-2 gap-3 items-center place-items-center'
+      class="container mx-auto mt-10 p-4 grid grid-cols-1 md:grid-cols-2 gap-3 items-center place-items-center"
     >
       <img
-        class='rounded-3xl'
-        src='/agrotechmexico/img/AgrotechHome-2.webp'
-        alt='Agrotech'
-        width='500'
-        height='300'
-        loading='lazy'
+        class="rounded-3xl"
+        src="/agrotechmexico/img/AgrotechHome-2.webp"
+        alt="Agrotech"
+        width="500"
+        height="300"
+        loading="lazy"
       />
-      <p class='text-lg text-justify' set:html={t('home.description')} />
+      <p class="text-lg text-justify" set:html={t("home.description")} />
     </div>
-    <p class='mt-10 text-center font-extrabold text-3xl'>
-      {t('why-exhibit.title')}
+    <p class="mt-10 text-center font-extrabold text-3xl">
+      {t("why-exhibit.title")}
     </p>
     <div
-      class='container mx-auto mt-10 p-4 grid md:grid-cols-2 place-items-center items-center'
+      class="container mx-auto mt-10 p-4 grid md:grid-cols-2 place-items-center items-center"
     >
-      <ul class='mt-10 space-y-4 text-left text-gray-500 text-lg'>
-        <li class='flex items-center space-x-3 rtl:space-x-reverse'>
+      <ul class="mt-10 space-y-4 text-left text-gray-500 text-lg">
+        <li class="flex items-center space-x-3 rtl:space-x-reverse">
           <svg
-            class='flex-shrink-0 w-3.5 h-3.5 text-green-500'
-            aria-hidden='true'
-            xmlns='http://www.w3.org/2000/svg'
-            fill='none'
-            viewBox='0 0 16 12'
+            class="flex-shrink-0 w-3.5 h-3.5 text-green-500"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 16 12"
           >
             <path
-              stroke='currentColor'
-              stroke-linecap='round'
-              stroke-linejoin='round'
-              stroke-width='2'
-              d='M1 5.917 5.724 10.5 15 1.5'></path>
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M1 5.917 5.724 10.5 15 1.5"></path>
           </svg>
-          <span>{t('why-exhibit.reason_6')}</span>
+          <span>{t("why-exhibit.reason_6")}</span>
         </li>
-        <li class='flex items-center space-x-3 rtl:space-x-reverse'>
+        <li class="flex items-center space-x-3 rtl:space-x-reverse">
           <svg
-            class='flex-shrink-0 w-3.5 h-3.5 text-green-500'
-            aria-hidden='true'
-            xmlns='http://www.w3.org/2000/svg'
-            fill='none'
-            viewBox='0 0 16 12'
+            class="flex-shrink-0 w-3.5 h-3.5 text-green-500"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 16 12"
           >
             <path
-              stroke='currentColor'
-              stroke-linecap='round'
-              stroke-linejoin='round'
-              stroke-width='2'
-              d='M1 5.917 5.724 10.5 15 1.5'></path>
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M1 5.917 5.724 10.5 15 1.5"></path>
           </svg>
-          <span>{t('why-exhibit.reason_7')}</span>
+          <span>{t("why-exhibit.reason_7")}</span>
         </li>
-        <li class='flex items-center space-x-3 rtl:space-x-reverse'>
+        <li class="flex items-center space-x-3 rtl:space-x-reverse">
           <svg
-            class='flex-shrink-0 w-3.5 h-3.5 text-green-500'
-            aria-hidden='true'
-            xmlns='http://www.w3.org/2000/svg'
-            fill='none'
-            viewBox='0 0 16 12'
+            class="flex-shrink-0 w-3.5 h-3.5 text-green-500"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 16 12"
           >
             <path
-              stroke='currentColor'
-              stroke-linecap='round'
-              stroke-linejoin='round'
-              stroke-width='2'
-              d='M1 5.917 5.724 10.5 15 1.5'></path>
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M1 5.917 5.724 10.5 15 1.5"></path>
           </svg>
-          <span>{t('why-exhibit.reason_8')}</span>
+          <span>{t("why-exhibit.reason_8")}</span>
         </li>
-        <li class='flex items-center space-x-3 rtl:space-x-reverse'>
+        <li class="flex items-center space-x-3 rtl:space-x-reverse">
           <svg
-            class='flex-shrink-0 w-3.5 h-3.5 text-green-500'
-            aria-hidden='true'
-            xmlns='http://www.w3.org/2000/svg'
-            fill='none'
-            viewBox='0 0 16 12'
+            class="flex-shrink-0 w-3.5 h-3.5 text-green-500"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 16 12"
           >
             <path
-              stroke='currentColor'
-              stroke-linecap='round'
-              stroke-linejoin='round'
-              stroke-width='2'
-              d='M1 5.917 5.724 10.5 15 1.5'></path>
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M1 5.917 5.724 10.5 15 1.5"></path>
           </svg>
-          <span>{t('why-exhibit.reason_9')}</span>
+          <span>{t("why-exhibit.reason_9")}</span>
         </li>
       </ul>
       <img
-        src='/agrotechmexico/img/whyexhibit.webp'
-        alt='AgroTech México Exhibit'
-        width='450'
-        height='300'
-        loading='lazy'
+        src="/agrotechmexico/img/whyexhibit.webp"
+        alt="AgroTech México Exhibit"
+        width="450"
+        height="300"
+        loading="lazy"
       />
     </div>
     <dl
-      class='mt-10 grid place-content-center text-center max-w-screen-xl grid-cols-2 gap-8 p-4 mx-auto text-gray-900 sm:grid-cols-3 xl:grid-cols-5'
+      class="mt-10 grid place-content-center text-center max-w-screen-xl grid-cols-2 gap-8 p-4 mx-auto text-gray-900 sm:grid-cols-3 xl:grid-cols-5"
     >
-      <div class='flex flex-col items-center justify-start'>
-        <dt class='mb-2 text-3xl font-extrabold'>+5,000</dt>
-        <dd class='text-gray-500' set:html={t('why-exhibit.reason_1')} />
+      <div class="flex flex-col items-center justify-start">
+        <dt class="mb-2 text-3xl font-extrabold">+5,000</dt>
+        <dd class="text-gray-500" set:html={t("why-exhibit.reason_1")} />
       </div>
-      <div class='flex flex-col items-center justify-start'>
-        <dt class='mb-2 text-3xl font-extrabold'>10,200 m2</dt>
-        <dd class='text-gray-500' set:html={t('why-exhibit.reason_2')} />
+      <div class="flex flex-col items-center justify-start">
+        <dt class="mb-2 text-3xl font-extrabold">10,200 m2</dt>
+        <dd class="text-gray-500" set:html={t("why-exhibit.reason_2")} />
       </div>
-      <div class='flex flex-col items-center justify-start'>
-        <dt class='mb-2 text-3xl font-extrabold'>+100</dt>
-        <dd class='text-gray-500' set:html={t('why-exhibit.reason_3')} />
+      <div class="flex flex-col items-center justify-start">
+        <dt class="mb-2 text-3xl font-extrabold">+100</dt>
+        <dd class="text-gray-500" set:html={t("why-exhibit.reason_3")} />
       </div>
-      <div class='flex flex-col items-center justify-start'>
-        <dt class='mb-2 text-3xl font-extrabold'>+158 MDP</dt>
-        <dd class='text-gray-500' set:html={t('why-exhibit.reason_4')} />
+      <div class="flex flex-col items-center justify-start">
+        <dt class="mb-2 text-3xl font-extrabold">+158 MDP</dt>
+        <dd class="text-gray-500" set:html={t("why-exhibit.reason_4")} />
       </div>
-      <div class='flex flex-col items-center justify-start'>
-        <dt class='mb-2 text-3xl font-extrabold'>+1 MDP</dt>
-        <dd class='text-gray-500' set:html={t('why-exhibit.reason_5')} />
+      <div class="flex flex-col items-center justify-start">
+        <dt class="mb-2 text-3xl font-extrabold">+1 MDP</dt>
+        <dd class="text-gray-500" set:html={t("why-exhibit.reason_5")} />
       </div>
     </dl>
-    <p class='text-center'>{t('home.collaboration')}</p>
+    <p class="text-center">{t("home.collaboration")}</p>
     {
       /*<div class='grid sm:flex justify-center mt-10'>
       <a
@@ -243,77 +240,77 @@ changeLanguage("en");
     }
   </article>
   <Testimonials />
-  <section class='mt-20'>
+  <section class="mt-20">
     <Categories />
-    <div class='mt-20 container mx-auto'>
-      <h1 class='font-extrabold text-4xl text-agro-green text-center'>
+    <div class="mt-20 container mx-auto">
+      <h1 class="font-extrabold text-4xl text-agro-green text-center">
         AgroTech México 2023
       </h1>
       <LightBox images={gallery2023} client:visible />
     </div>
-    <h1 class='mt-20 font-extrabold text-3xl text-center'>
-      {t('home.organized_by')}
+    <h1 class="mt-20 font-extrabold text-3xl text-center">
+      {t("home.organized_by")}
     </h1>
-    <div class='mt-10 container mx-auto'>
-      <div class='sm:flex grid gap-8 justify-center'>
-        <a href='https://www.iegexpo.it/en/' target='_blank' rel='noreferrer'>
+    <div class="mt-10 container mx-auto">
+      <div class="sm:flex grid gap-8 justify-center">
+        <a href="https://www.iegexpo.it/en/" target="_blank" rel="noreferrer">
           <img
-            src='/agrotechmexico/italianExhibitionGroup.webp'
+            src="/agrotechmexico/italianExhibitionGroup.webp"
             width={150}
             height={82}
-            loading='lazy'
-            alt='italianExhibitionGroup'
+            loading="lazy"
+            alt="italianExhibitionGroup"
           />
         </a>
 
-        <a href='https://www.messe.de/en/' target='_blank' rel='noreferrer'>
+        <a href="https://www.messe.de/en/" target="_blank" rel="noreferrer">
           <img
-            src='/agrotechmexico/deutscheMesse.webp'
+            src="/agrotechmexico/deutscheMesse.webp"
             width={250}
             height={54}
-            loading='lazy'
-            alt='deutscheMesse'
+            loading="lazy"
+            alt="deutscheMesse"
           />
         </a>
       </div>
-      <h1 class='mt-20 font-extrabold text-3xl text-center'>
-        {t('home.strategic_allies')}
+      <h1 class="mt-20 font-extrabold text-3xl text-center">
+        {t("home.strategic_allies")}
       </h1>
-      <div class='sm:flex grid gap-8 justify-center'>
+      <div class="sm:flex grid gap-8 justify-center">
         <a
-          href='https://www.centrouniversitarioceickor.edu.mx/home/'
-          target='_blank'
+          href="https://www.centrouniversitarioceickor.edu.mx/home/"
+          target="_blank"
         >
           <img
-            class='mt-5'
-            src='/agrotechmexico/img/ceickor.webp'
-            width='200'
-            height='111'
+            class="mt-5"
+            src="/agrotechmexico/img/ceickor.webp"
+            width="200"
+            height="111"
           />
         </a>
-        <a href='https://futureagexpo.com.au/exhibitors' target='_blank'>
+        <a href="https://futureagexpo.com.au/exhibitors" target="_blank">
           <img
-            class='mt-5'
-            src='/agrotechmexico/img/FutureAg.webp'
-            width='200'
-            height='111'
+            class="mt-5"
+            src="/agrotechmexico/img/FutureAg.webp"
+            width="200"
+            height="111"
           />
         </a>
       </div>
     </div>
-    <p class='mt-20 font-extrabold text-3xl text-center'>
-      {t('home.exhibitor')}
+    <p class="mt-20 font-extrabold text-3xl text-center">
+      {t("home.exhibitor")}
     </p>
-    <MarqueeReact images={exhibitor} direction='left' client:only />
+    <MarqueeReact images={exhibitor} direction="left" client:only />
     <MarqueeReact images={exhibitor2} client:only />
-    <p class='mt-20 font-extrabold text-3xl text-center'>Media partners</p>
-    <MarqueeReact images={partners} direction='left' client:only />
+    <p class="mt-20 font-extrabold text-3xl text-center">Media partners</p>
+    <MarqueeReact images={partners} direction="left" client:only />
   </section>
   <Suscribe
-    title={t('home.suscribe_title')}
-    description={t('home.description_suscribe')}
-    suscribe_label={t('home.suscribe_label')}
-    button={t('home.suscribe_button')}
+    title={t("home.suscribe_title")}
+    description={t("home.description_suscribe")}
+    suscribe_label={t("home.suscribe_label")}
+    button={t("home.suscribe_button")}
     client:only
   />
 </Layout>
