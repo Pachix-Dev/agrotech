@@ -1,6 +1,6 @@
 {
     "site":{
-        "title":"Agrotech Mexico 2024",
+        "title":"Agrotech Mexico ",
         "description":"Our exhibition is designed for the agribusiness sector comprising the entire value chain, from production, industrialization and marketing of agricultural products, to increase its specialization and competitiveness by moving towards Agribusiness through the adoption of technologies such as Artificial Intelligence, Big Data, Blockchain, Automation, Drones, Logistics, and many more."
     },
     "menu":{
@@ -16,9 +16,9 @@
             "subMenu": {
                 "option1":"Contact",                
                 "option2":"Exhibitor Services",
-                "option3":"Factsheet 2024",
-                "option4":"Floor plan 2024",
-                "option5":"Contract 2024",
+                "option3":"Factsheet ",
+                "option4":"Floor plan ",
+                "option5":"Contract ",
                 "option6":"Rates"                
             }
         },        
@@ -35,7 +35,7 @@
     },
     "home":{
         "title" : "THE EXHIBITION FOR AGRIBUSINESSES",
-        "event_date" : "May 15 to 17 2024 | Expo Guadalajara Jalisco",
+        "event_date" : "May 15 to 17  | Expo Guadalajara Jalisco",
         "description": "<strong>AgroTech Mexico</strong>, supported by Deutsche Messe and Italian Exhibition Group, two of the most important organizers of industrial fairs worldwide, is the exhibition that brings together professionals, companies and experts from the agricultural sector, promoting the transformation towards a more competitive and sustainable Mexican countryside, with a more efficient and responsible use of resources, taking advantage of the latest trends and advances in agribusiness.",
         "collaboration":"*In collaboration with World Seafood Industry",
         "title_2": "Exhibition categories",
@@ -52,7 +52,7 @@
         "category_6": "SPECIALIZED SERVICES",
         "category_6_description": "Financial support <br />International trade services <br />Security equipment <br />Cargo insurance<br /> Consulting Certifications <br />Tagged Governmental and non-governmental organizations",
         "suscribe_title":"FIND OUT WHAT'S NEW IN AGRICULTURE",
-        "description_suscribe":"Receive the latest Industry trends in agriculture and valuable updates on how to make the most of your experience at AgroTech Mexico 2024.",
+        "description_suscribe":"Receive the latest Industry trends in agriculture and valuable updates on how to make the most of your experience at AgroTech Mexico .",
         "suscribe_label": "Sign up for our newsletter",
         "suscribe_button": "Subscribe",
         "testimonials": "Testimonials",
@@ -62,7 +62,7 @@
         "communication" : "SEE IMPORTANT NOTICE"
     },
     "about":{
-        "description":"<strong>Italian German Exhibition Company</strong> is pleased to invite you to participate in AgroTech Mexico 2024, the trade fair dedicated to driving the Mexican countryside towards a more sustainable and efficient future, taking advantage of innovations in knowledge, machinery, equipment and farming practices.<br /><br />Mexican agribusiness has a promising future. However, in order to maintain our competitiveness and become a global leader in this industry, it will be necessary to drive agricultural transformation.<br /><br />Mexico's great biodiversity is one of the main reasons for the high productivity of this sector, since approximately 13% of the national territory is used for crop production, which allows us to harvest close to 200 products in different seasons and seasons of the year. We are the 11th largest food producer in the world and the 7th largest exporter, as well as the 3rd largest food industry in the Americas. Our agri-food products, including avocados, tomatoes, blackberries, green chiles, raspberries, lemons and beef, are consumed in 164 countries with a potential market of 1,353 million people.<br /><br />In addition, our network of 12 trade agreements with preferential access to 52 countries means that our agri-food exports are increasing year after year. During the first half of 2023, in our country, exports in this sector amounted to 31,487 million dollars, while the export of agro-industrial products exceeded 17 billion dollars, 6.74% higher than the same period in 2022.<br /><br />Mexico is today a leading player in this industry, so AgroTech Mexico is designed to bring the revolution to the field by adopting the latest trends in Machinery and Equipment, Agrotechnology, Agricultural Inputs, Greenhouses and Water Management, allowing accelerating the construction of a more competitive, efficient, sustainable future, providing innovative solutions for the optimization of production processes throughout the industry, facilitating integration into global supply chains and promoting sustainable food production.<br /><br /><p class='text-center font-bold'>We look forward to seeing you at AgroTech Mexico 2024.</p>",
+        "description":"<strong>Italian German Exhibition Company</strong> is pleased to invite you to participate in AgroTech Mexico , the trade fair dedicated to driving the Mexican countryside towards a more sustainable and efficient future, taking advantage of innovations in knowledge, machinery, equipment and farming practices.<br /><br />Mexican agribusiness has a promising future. However, in order to maintain our competitiveness and become a global leader in this industry, it will be necessary to drive agricultural transformation.<br /><br />Mexico's great biodiversity is one of the main reasons for the high productivity of this sector, since approximately 13% of the national territory is used for crop production, which allows us to harvest close to 200 products in different seasons and seasons of the year. We are the 11th largest food producer in the world and the 7th largest exporter, as well as the 3rd largest food industry in the Americas. Our agri-food products, including avocados, tomatoes, blackberries, green chiles, raspberries, lemons and beef, are consumed in 164 countries with a potential market of 1,353 million people.<br /><br />In addition, our network of 12 trade agreements with preferential access to 52 countries means that our agri-food exports are increasing year after year. During the first half of 2023, in our country, exports in this sector amounted to 31,487 million dollars, while the export of agro-industrial products exceeded 17 billion dollars, 6.74% higher than the same period in 2022.<br /><br />Mexico is today a leading player in this industry, so AgroTech Mexico is designed to bring the revolution to the field by adopting the latest trends in Machinery and Equipment, Agrotechnology, Agricultural Inputs, Greenhouses and Water Management, allowing accelerating the construction of a more competitive, efficient, sustainable future, providing innovative solutions for the optimization of production processes throughout the industry, facilitating integration into global supply chains and promoting sustainable food production.<br /><br /><p class='text-center font-bold'>We look forward to seeing you at AgroTech Mexico .</p>",
         "team": "Your AgroTech Mexico Team",
         "title_2": "Our audience",
         "description_2": "AgroTech Mexico brings together agricultural experts from Mexico and Latin America, opening up opportunities to exchange innovations, ideas and close deals.<br /><br />In three days of trade show, combined with an extensive educational program and business meetings, you will have the opportunity to expand your markets, expand your customer list and acquire the latest in technologies and industry know-how.",
@@ -80,7 +80,7 @@
     },
     "contact":{
         "title":"Contact",
-        "description":"Need details about our <strong>AgroTech México 2024</strong>? Let us know.",
+        "description":"Need details about our <strong>AgroTech México </strong>? Let us know.",
         "form":{
             "name":"Name",
             "email":"Your email",
@@ -90,7 +90,7 @@
         }    
     },
     "why-exhibit":{
-        "title":"Reasons to be an exhibitor in AgroTech México 2024",
+        "title":"Reasons to be an exhibitor in AgroTech México ",
         "reason_1": "national and international buyers.",
         "reason_2": "of floor display.",
         "reason_3": "exhibitors",
@@ -114,7 +114,7 @@
     },
     "footer":{
         "title": "Sales Contact",
-        "event_date": "May 15 to 17 2024 <br />Expo Guadalajara Jalisco",
+        "event_date": "May 15 to 17  <br />Expo Guadalajara Jalisco",
         "privacy_policy": "Privacy Policy",
         "contact": "Contact"
     },
